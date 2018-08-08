@@ -1,0 +1,151 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={HW 1: Due Day 1 11:59 PM},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{HW 1: Due Day 1 11:59 PM}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{}
+    \preauthor{}\postauthor{}
+    \date{}
+    \predate{}\postdate{}
+  
+
+\begin{document}
+\maketitle
+
+\section{Exploratory Data Analysis}\label{exploratory-data-analysis}
+
+Use Canvas to submit the HW. Both RMarkdown and the knitted html file is
+required
+
+\subsection{Task 1}\label{task-1}
+
+Instead of O\(_3\) as used in the tutorial, perform the analysis for
+NO\(_2\) for 2017 data. For this you will need to download the data from
+the \href{https://aqs.epa.gov/aqsweb/airdata/download_files.html}{EPA
+website} and clean it. You need to tell a story about this pollutant and
+its distribution (in various senses). Explore some problematic features
+of the data collection and discuss their impacts on your analyses. You
+may consider some of the following questions in directing your analyses.
+
+\begin{itemize}
+\tightlist
+\item
+  How many sensors are measuring NO\(_2\)?
+\item
+  Of what percentage of the year are the NO\(_2\) sensors active? Where
+  are the sensors that are not active? Map them.
+\item
+  How does the geographical distribution of NO\(_2\) AQI differ from
+  that of O\(_3\)
+\item
+  Which cities (CBSA, not counties) are worst affected by NO\(_2\)?
+\item
+  Is there a correlation between NO\(_2\) and O\(_3\)? Do different
+  correlations matter? (i.e.~correlations among AQIs of NO\(_2\) and
+  O\(_3\) at site level, vs correlation of days AQI\textgreater{}100 at
+  CBSA level, vs correlation of days AQI\textgreater{}100 at CBSA level
+  etc.)
+\item
+  What does the scatterplot look like? What does facetting the scatter
+  plot by state tell us (pick 5 or so states)?
+\item
+  Link this with other data (temperature, population etc.)? Where to
+  acquires these datasets? How to link them?
+\end{itemize}
+
+These are by no means, exhaustive. Feel free to engage with your
+interests and the interesting bits about the datasets.
+
+\subsection{Task 2}\label{task-2}
+
+Download the motor vehicle traffic collisons data from
+\href{https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95}{NYC
+Open data portal}. Answer the following questions
+
+\begin{itemize}
+\tightlist
+\item
+  Which locations have high incidences of traffic collisons?
+\item
+  How are these high traffic collisons locations different at different
+  times of the day?
+\item
+  Visualise the correlation between home values in a block group and
+  traffic collisions and tell a story.
+\end{itemize}
+
+
+\end{document}

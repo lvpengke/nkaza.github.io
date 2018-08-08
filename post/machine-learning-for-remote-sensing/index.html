@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.42.2" />
+  <meta name="author" content="Nikhil Kaza">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="Introduction Stages of ML approach Data Acquisition and Preprocessing Feature engineering Constructing the training dataset Build models using different algorithms Note on performance measures Choosing among different predictive algorithms Potential Improvements Conclusions Acknowledgements   Introduction Machine learning (ML) is currently buzzwords in urban analytics. It is a process of automated model building that generates a predictive model that can reasonably explain not just the data that it is trained on, but generalised to other data from the same data generating process.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://sia.planning.unc.edu/post/machine-learning-for-remote-sensing/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="../../styles.css">
+  
+  <link rel="stylesheet" href="../../css/blue.css">
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-121426944-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+  <link rel="alternate" href="https://sia.planning.unc.edu/index.xml" type="application/rss+xml" title="Nikhil Kaza">
+  <link rel="feed" href="https://sia.planning.unc.edu/index.xml" type="application/rss+xml" title="Nikhil Kaza">
+  
+
+  <link rel="manifest" href="../../site.webmanifest">
+  <link rel="icon" type="image/png" href="../../img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="../../img/icon-192.png">
+
+  <link rel="canonical" href="https://sia.planning.unc.edu/post/machine-learning-for-remote-sensing/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@nikhil_kaza">
+  <meta property="twitter:creator" content="@nikhil_kaza">
+  
+  <meta property="og:site_name" content="Nikhil Kaza">
+  <meta property="og:url" content="https://sia.planning.unc.edu/post/machine-learning-for-remote-sensing/">
+  <meta property="og:title" content="Machine Learning for Remote Sensing | Nikhil Kaza">
+  <meta property="og:description" content="Introduction Stages of ML approach Data Acquisition and Preprocessing Feature engineering Constructing the training dataset Build models using different algorithms Note on performance measures Choosing among different predictive algorithms Potential Improvements Conclusions Acknowledgements   Introduction Machine learning (ML) is currently buzzwords in urban analytics. It is a process of automated model building that generates a predictive model that can reasonably explain not just the data that it is trained on, but generalised to other data from the same data generating process."><meta property="og:image" content="https://sia.planning.unc.edu/img/headers/segment_rs_ml.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-08-07T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2018-08-07T00:00:00&#43;00:00">
+  
+
+  
+
+  
+
+  <title>Machine Learning for Remote Sensing | Nikhil Kaza</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="../../">Nikhil Kaza</a>
+    </div>
+
+
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="../../#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="../../#publications_selected">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="../../#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="../../#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="../../#teaching">
+            
+            <span>Teaching</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="../../files/cv.pdf">
+            
+            <span>CV</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="../../#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="../../#search">
+            
+            <span>Search</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+<div class="article-header">
+  
+  
+    <img src="../../img/headers/segment_rs_ml.png" class="article-banner" itemprop="image">
+  
+
+  <span class="article-header-caption">Twitter in NY</span>
+</div>
+
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Machine Learning for Remote Sensing</h1>
+
+    
+
+<div class="article-metadata">
+
+
+  <span class="article-date">
+    <time datetime="2018-08-07 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Aug 7, 2018
+    </time>
+  </span>
+  
+
+    
+  <span class="article-date">
+    <i class="fa fa-twitter"></i>
+    <a href="https://twitter.com/nikhil_kaza" target="_blank">@nikhil_kaza</a>&nbsp
+
+  
+  
+  
+  <span class="article-categories">
+    <i class="fa fa-folder"></i>
+    
+    <a href="../../categories/r">R</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a href="../../tags/new-urban-analytics">new-urban-analytics</a
+    >, 
+    
+    <a href="../../tags/machine-learning">machine learning</a
+    >, 
+    
+    <a href="../../tags/techniques-short-course">techniques-short-course</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Machine%20Learning%20for%20Remote%20Sensing&amp;url=https%3a%2f%2fsia.planning.unc.edu%2fpost%2fmachine-learning-for-remote-sensing%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fsia.planning.unc.edu%2fpost%2fmachine-learning-for-remote-sensing%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fsia.planning.unc.edu%2fpost%2fmachine-learning-for-remote-sensing%2f&amp;title=Machine%20Learning%20for%20Remote%20Sensing"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fsia.planning.unc.edu%2fpost%2fmachine-learning-for-remote-sensing%2f&amp;title=Machine%20Learning%20for%20Remote%20Sensing"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Machine%20Learning%20for%20Remote%20Sensing&amp;body=https%3a%2f%2fsia.planning.unc.edu%2fpost%2fmachine-learning-for-remote-sensing%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      <div id="TOC">
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#stages-of-ml-approach">Stages of ML approach</a></li>
+<li><a href="#data-acquisition-and-preprocessing">Data Acquisition and Preprocessing</a></li>
+<li><a href="#feature-engineering">Feature engineering</a></li>
+<li><a href="#constructing-the-training-dataset">Constructing the training dataset</a></li>
+<li><a href="#build-models-using-different-algorithms">Build models using different algorithms</a></li>
+<li><a href="#note-on-performance-measures">Note on performance measures</a></li>
+<li><a href="#choosing-among-different-predictive-algorithms">Choosing among different predictive algorithms</a></li>
+<li><a href="#potential-improvements">Potential Improvements</a></li>
+<li><a href="#conclusions">Conclusions</a></li>
+<li><a href="#acknowledgements">Acknowledgements</a></li>
+</ul>
+</div>
+
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<p>Machine learning (ML) is currently buzzwords in urban analytics. It is a process of automated model building that generates a predictive model that can reasonably explain not just the data that it is trained on, but generalised to other data from the same data generating process. Traditional models are rules that operate on data to produce and ouput. Machine learning approaches, on the other hand, usually take outputs and data to figure out the approriate rules. While traditional models have to rely upon external justification for the rules, the promise of ML is that it discovers these rules empirically, without a theoretical basis for understanding the correlations among the differnet variables.One important thing to note about machine learning is that the models are restricted to the hypothesis space and the search is not among the arbirtary model specifications. For example, in machine learning, that is about logistic regression model, the features are restricted to enter the model in a linear fashion, where as in a decision tree, they behave non-linearly based on the partition. While this may be too esoteric for students who are starting out on understaning ML techniques, it is useful to temper the expectations regarding what kinds of models can we expect to be generated by the various algorithms. In other words, there is no gaurentee that the ML model is the <code>best</code> model that explains and predicts the observed data. Practical ML is as much an art as it is a science.</p>
+<p>It might be beneficial to illustrate some of the salient points about ML though a practical example that interests planners. Identifying objects and land use classes from remotely sensed images of urban areas.</p>
+</div>
+<div id="stages-of-ml-approach" class="section level1">
+<h1>Stages of ML approach</h1>
+<p>There are 5 distinct stages of Machine Learning. Let’s focus on supervised learning, a subset of ML approaches. In supervised learning, target outcome is known for a vector of features and the dataset consists of a collection of the features and target. So for example, land use class is frequently the target (dependent variable) and the featues (independent variables) are various bands, indices, textures, proximity etc.</p>
+<ol style="list-style-type: decimal">
+<li>Identifying appropriate data sources, especially labelled data. Wrangle, Clean and Assemble (Data Preprocessing)</li>
+<li>Feature Engineering. Identify the right variable combinations from the independent variables.</li>
+<li>Splitting the data into training, validation and holdout.</li>
+<li>Iterating over the algorithm to fit best explain the training dataset. Use the validation data to tune the model.</li>
+<li>Choosing the best model that does well (predictively) on the holdout dataset.</li>
+</ol>
+<p>ML approaches are fundamentally iterative. I cannot emphasise this enough. While there are distinct steps in the appoaches, because later stages crucuially depend on earlier stages, all stages, except the last one, are iterative. We usually iterate to find better fitting algorithms to the data, which necessitates changes to feature engineering and selection as shown in the figure below.</p>
+<div class="figure">
+<img src="../../post/2018-08-07-machine-learning-for-remote-sensing_files/1528719478855-image3%5B4%5D.png" alt="Image credit: Goyal (2018)" style="width:100.0%" style="height:100.0%" />
+<p class="caption">Image credit: <a href="https://www.zeolearn.com/magazine/understanding-the-human-process-in-machine-learning">Goyal (2018)</a></p>
+</div>
+<p>In the following steps, for the sake of brevity, I do not demonstrate the iterative aspects of ML.</p>
+</div>
+<div id="data-acquisition-and-preprocessing" class="section level1">
+<h1>Data Acquisition and Preprocessing</h1>
+<p>For this exercise, I am going to use a 3m, 4-band Planetscope image from around Wuhan, China. You can download it from around <a href="data/posts/4.machinelearning/data.zip">here</a>. The 4 bands are Blue, Green, Red and Near InfraRed (NIR). These are initial set of features.</p>
+<pre class="r"><code>library(raster)
+wuhan_raster &lt;- brick(&#39;./20170914_022008_0f28/20170914_022008_0f28_3B_AnalyticMS_SR.tif&#39;)
+names(wuhan_raster) &lt;- c(&#39;Blue&#39;, &quot;Green&quot;, &quot;Red&quot;, &#39;NIR&#39;)
+wuhan_raster
+# class       : RasterBrick 
+# dimensions  : 4695, 9068, 42574260, 4  (nrow, ncol, ncell, nlayers)
+# resolution  : 3, 3  (x, y)
+# extent      : 231990, 259194, 3372027, 3386112  (xmin, xmax, ymin, ymax)
+# coord. ref. : +proj=utm +zone=50 +datum=WGS84 +units=m +no_defs +ellps=WGS84 +towgs84=0,0,0 
+# data source : /Users/kaza/Dropbox/urban_analysis_tutorials/datasets/4.machinelearning/20170914_022008_0f28/20170914_022008_0f28_3B_AnalyticMS_SR.tif 
+# names       :  Blue, Green,   Red,   NIR 
+# min values  :     0,     0,     0,     0 
+# max values  : 65535, 65535, 65535, 65535
+plotRGB(wuhan_raster, r=3, g=2, b=1, stretch=&#39;hist&#39;, main=&#39;True color composite&#39;) #TRUE color composite</code></pre>
+<p><img src="../../post/2018-08-07-machine-learning-for-remote-sensing_files/figure-html/unnamed-chunk-1-1.png" width="768" /></p>
+<pre class="r"><code>plotRGB(wuhan_raster, r=4,g=3,b=2, stretch=&#39;hist&#39;, main = &#39;False color composite&#39;) # FALsE Color Composite</code></pre>
+<p><img src="../../post/2018-08-07-machine-learning-for-remote-sensing_files/figure-html/unnamed-chunk-1-2.png" width="768" /></p>
+<p>The labels are vector data derived from Openstreetmap data. It is availale as part of the zip file you downloaded earlier. In particular, the labels are in the ‘landuse’ class.</p>
+<pre class="r"><code> library(sf)
+ shp &lt;- st_read(&quot;./landuse3.shp&quot;)
+# Reading layer `landuse3&#39; from data source `/Users/kaza/Dropbox/urban_analysis_tutorials/datasets/4.machinelearning/landuse3.shp&#39; using driver `ESRI Shapefile&#39;
+# Simple feature collection with 629 features and 25 fields
+# geometry type:  MULTIPOLYGON
+# dimension:      XY
+# bbox:           xmin: 114.21 ymin: 30.45716 xmax: 114.4891 ymax: 30.57547
+# epsg (SRID):    4326
+# proj4string:    +proj=longlat +datum=WGS84 +no_defs
+shp &lt;- st_transform(shp, proj4string(wuhan_raster)) ## Note that shp was not in the same projection as raster, so transform it to make the spatial operations possible. In general, it is quicker and easier to transform vectors.
+summary(shp$landuse)
+#         basin    commercial  construction        forest         grass 
+#             7            42            41            51            42 
+#    industrial          lake        meadow       railway   residential 
+#            56             3            64             1           293 
+#        retail         river village_green 
+#            25             2             2
+plot(shp[,&#39;landuse&#39;])</code></pre>
+<p><img src="../../post/2018-08-07-machine-learning-for-remote-sensing_files/figure-html/unnamed-chunk-2-1.png" width="768" /></p>
+<p>For the sake of simplicity, lets sample 15 locations from each polygon and use that as the basis for our dataset.</p>
+<pre class="r"><code>ptsamp &lt;- shp %&gt;% 
+  st_sample(rep(15, nrow(shp)), type = &#39;random&#39;) %&gt;% 
+  st_sf() %&gt;%
+  st_join(shp, join=st_intersects)</code></pre>
+<p>We will ultimately extract the raster values from the locations of these points to construct the columns in the training data. The landuse class becomes the target variable.</p>
+</div>
+<div id="feature-engineering" class="section level1">
+<h1>Feature engineering</h1>
+<p>Feature engineering is careful construction of new variables from raw data. For example, we can construct ‘Age’ from ‘Birth Date’ and ‘CurrentDate’, even when ‘CurrentDate’ is a not explicitly part of the dataset. Or combining two categorical variables into one.</p>
+<p>Feature engineering is one of the critical steps in ML approaches and is often overlooked. Because the raw data can be transformed into any number of features, it is critical that we need to draw upon domain knowledge to produce a proper ‘hypothesis space’ to find the ‘best model’.</p>
+<blockquote>
+<p>“Coming up with features is difficult, time-consuming, requires expert knowledge. ‘Applied machine learning’ is basically feature engineering.” - Andrew Ng</p>
+</blockquote>
+<p>For example it is common practise to construct Normalised Difference Index by doing some band math. One such indes is Normalised Difference Vegetation Index (NDVI) that is based on the ratio of NIR and Red. Normalised Difference Water Index is based on NIR and Green.</p>
+<pre class="r"><code>band_math_ratio &lt;- function(img, k, i) {
+  bk &lt;- img[[k]]
+  bi &lt;- img[[i]]
+  vi &lt;- (bk - bi) / (bk + bi)
+  return(vi)
+}
+
+
+ndvi &lt;- band_math_ratio(wuhan_raster, 4,3)
+names(ndvi) &lt;- &#39;ndvi&#39;
+ndwi &lt;- band_math_ratio(wuhan_raster, 2,4)
+names(ndwi) &lt;- &#39;ndwi&#39;
+plot(ndvi, col = rev(terrain.colors(10)), main = &#39;NDVI&#39;)</code></pre>
+<p><img src="../../post/2018-08-07-machine-learning-for-remote-sensing_files/figure-html/unnamed-chunk-4-1.png" width="768" /></p>
+<pre class="r"><code>plot(ndwi, col = rev(terrain.colors(10)), main = &#39;NDWI&#39;)</code></pre>
+<p><img src="../../post/2018-08-07-machine-learning-for-remote-sensing_files/figure-html/unnamed-chunk-4-2.png" width="768" /></p>
+<hr />
+<p><strong>Exercise</strong></p>
+<p>Calculate</p>
+<ul>
+<li>Visible Atmospherically Resistant Index <span class="math inline">\((Green - Red)/ (Green + Red - Blue)\)</span></li>
+<li>Modified Soil Adjusted Vegetation Index (MSAVI2): <span class="math inline">\(\frac{(2* NIR+1)-\sqrt{(2*NIR+1)^2-8*(NIR-Red))}}{2}\)</span></li>
+</ul>
+<p>Look up the original references for these indices and see if they can really be applied to Planetscopse sensors. What are the limitations of each of these indices including NDVI, NDWI</p>
+<p>Plot these indices and see if the values visually distinguish different classes.</p>
+<hr />
+<p>It is often useful to look at correlations within the different bands in the dataset to see if different features are adding much to the information content.</p>
+<pre class="r"><code>pairs(wuhan_raster)</code></pre>
+<p><img src="../../post/2018-08-07-machine-learning-for-remote-sensing_files/figure-html/unnamed-chunk-5-1.png" width="768" /></p>
+<p>From this plot, Blue and Red are pairwise heavily correlated (linearly) to Green. One way to reduce the dimensions is to extract the principal components of the data that encomposses most of the information.</p>
+<pre class="r"><code>library(RStoolbox)
+wuhan_PCA &lt;- rasterPCA(wuhan_raster, spca =TRUE) #scaled version.
+summary(wuhan_PCA$model)
+# Importance of components:
+#                          Comp.1    Comp.2     Comp.3     Comp.4
+# Standard deviation     1.729329 0.9746140 0.23241792 0.07436020
+# Proportion of Variance 0.747645 0.2374681 0.01350452 0.00138236
+# Cumulative Proportion  0.747645 0.9851131 0.99861764 1.00000000
+plot(wuhan_PCA$map[[1:2]], nr=2)</code></pre>
+<p><img src="../../post/2018-08-07-machine-learning-for-remote-sensing_files/figure-html/unnamed-chunk-6-1.png" width="768" /></p>
+<p>From the summary, it would appear that the first two principal components effectly capture more than 98% of the variation. We can just use those two instead of the 4 bands.</p>
+<div class="alert alert-Note">
+  <p></p>
+<p>In general, in remote sensing applications, dimensionality reduction is done on the entire dataset rather than the training sample. It is a matter of convention, though it is probably more accurate to reduce the dimensions using correlations in the training data only.</p>
+<p></p>
+
+</div>
+
+<div id="textures" class="section level2">
+<h2>Textures</h2>
+<p>Textures describe the spatial distribution of intensities, which makes it useful in classification of similar regions in different images. Haralick textures are usually from a discretised gray level images.</p>
+<div class="figure">
+<img src="../../post/2018-08-07-machine-learning-for-remote-sensing_files/GLCM.jpg" alt="Image credit: Eichkitz et.al (2013)" style="width:100.0%" />
+<p class="caption">Image credit: <a href="https://doi.org/10.1016/j.cageo.2013.07.006">Eichkitz et.al (2013)</a></p>
+</div>
+<p>The main idea is that an gray level image is discretised into n-levels. In a moving window of 3x3 or 5x5, the proportion of co-occurence of two levels is noted in a matrix. From the Gray Level Co-Occurrence Matrix (GLCM), we can derive texture features such as Variance Homogeneity, Dissmilarity etc.</p>
+<p>We can use the 1 st principal component as an input for the GLCM.</p>
+<pre class="r"><code>library(glcm)
+textures &lt;- glcm(wuhan_PCA$map[[1]], shift=list(c(0,1), c(1,1), c(1,0), c(1,-1)))
+textures &lt;- textures[[-8]]</code></pre>
+<hr />
+<p><strong>Exercise</strong></p>
+<p>The above code calculates isotropic textures (taking the mean of all the directions). However, sometimes it might be better to calculate anisotropic textures for urban orbject detection. See <a href="http://dx.doi.org/10.1109/JSTARS.2008.2002869">Pesaresi et.al (2008)</a>. Calculate the PanTex features from Pesaresi et.al based on maximum, instead of the mean of different directions for this image.</p>
+<hr />
+</div>
+</div>
+<div id="constructing-the-training-dataset" class="section level1">
+<h1>Constructing the training dataset</h1>
+<pre class="r"><code>(wuhan_analysis_raster &lt;- stack(wuhan_PCA$map[[1:2]],ndvi, ndwi, textures))
+# class       : RasterStack 
+# dimensions  : 4695, 9068, 42574260, 11  (nrow, ncol, ncell, nlayers)
+# resolution  : 3, 3  (x, y)
+# extent      : 231990, 259194, 3372027, 3386112  (xmin, xmax, ymin, ymax)
+# coord. ref. : +proj=utm +zone=50 +datum=WGS84 +units=m +no_defs +ellps=WGS84 +towgs84=0,0,0 
+# names       :         PC1,         PC2,        ndvi,        ndwi,        mean,    variance, homogeneity,    contrast, dissimilarity,     entropy, second_moment 
+# min values  : -3.07275581, -9.65130363, -0.36895072, -0.77007209,  0.03125000,  0.91175974,  0.01047714,  0.00000000,    0.00000000,  0.00000000,    0.11111111 
+# max values  :  28.0441893,   2.8748238,   0.7871753,   0.4260036,   0.9826389, 936.7556695,   1.0000000, 143.2222222,    11.4444444,   2.1972246,     1.0000000
+raster_sample &lt;- extract(wuhan_analysis_raster, ptsamp) %&gt;% as.data.frame()
+raster_sample$landuse &lt;- factor(ptsamp$landuse)
+raster_sample &lt;- raster_sample[complete.cases(raster_sample),]
+
+summary(raster_sample)
+#       PC1               PC2               ndvi              ndwi        
+#  Min.   :-2.7768   Min.   :-3.7874   Min.   :-0.1868   Min.   :-0.7032  
+#  1st Qu.:-1.3823   1st Qu.:-0.5810   1st Qu.: 0.2385   1st Qu.:-0.4709  
+#  Median :-0.5847   Median :-0.0478   Median : 0.3548   Median :-0.3538  
+#  Mean   :-0.2406   Mean   :-0.1104   Mean   : 0.3639   Mean   :-0.3612  
+#  3rd Qu.: 0.4421   3rd Qu.: 0.4331   3rd Qu.: 0.4860   3rd Qu.:-0.2504  
+#  Max.   :17.2981   Max.   : 1.7492   Max.   : 0.7381   Max.   : 0.1470  
+#                                                                         
+#       mean            variance         homogeneity         contrast      
+#  Min.   :0.03125   Min.   :  0.9184   Min.   :0.05402   Min.   : 0.0000  
+#  1st Qu.:0.06771   1st Qu.:  4.7626   1st Qu.:0.77778   1st Qu.: 0.1111  
+#  Median :0.09549   Median :  8.6383   Median :0.83333   Median : 0.3333  
+#  Mean   :0.10701   Mean   : 13.6303   Mean   :0.82849   Mean   : 0.4335  
+#  3rd Qu.:0.12674   3rd Qu.: 15.5883   3rd Qu.:0.94444   3rd Qu.: 0.5556  
+#  Max.   :0.65972   Max.   :418.3581   Max.   :1.00000   Max.   :34.8889  
+#                                                                          
+#  dissimilarity       entropy       second_moment           landuse    
+#  Min.   :0.0000   Min.   :0.0000   Min.   :0.1111   residential:4771  
+#  1st Qu.:0.1111   1st Qu.:0.3488   1st Qu.:0.3333   meadow     :1628  
+#  Median :0.3333   Median :0.9369   Median :0.4815   industrial : 843  
+#  Mean   :0.3576   Mean   :0.7934   Mean   :0.5540   forest     : 783  
+#  3rd Qu.:0.4444   3rd Qu.:1.2149   3rd Qu.:0.8025   grass      : 650  
+#  Max.   :5.5556   Max.   :2.1972   Max.   :1.0000   commercial : 619  
+#                                                     (Other)    :1221</code></pre>
+<p>To test the generalisability of the model, we will hold out a portion of the dataset and train the model on the remaining dataset. The following image illustrates this.</p>
+<div class="figure">
+<img src="../../post/2018-08-07-machine-learning-for-remote-sensing_files/1_4G__SV580CxFj78o9yUXuQ.png" alt="Image credit: Borhnstein (2017)" />
+<p class="caption">Image credit: <a href="https://towardsdatascience.com/train-test-split-and-cross-validation-in-python-80b61beca4b6">Borhnstein (2017)</a></p>
+</div>
+<pre class="r"><code>library(caret)
+# create a holdout test set
+# use 80% of the original training data for training # use the remaining 20% of the original training data for testing
+set.seed(12)
+train_index &lt;- createDataPartition(raster_sample$landuse, p=0.80, list=FALSE)
+test_dataset &lt;- raster_sample[-train_index,]
+train_dataset &lt;- raster_sample[train_index,]</code></pre>
+<p>We will use repeated cross validation to fine tune each model. During each iteration, we will shuffle the dataset, so that the model is trained and tested on different datasets. <img src="../../post/2018-08-07-machine-learning-for-remote-sensing_files/1_J2B_bcbd1-s1kpWOu_FZrg.png" alt="Image credit: Borhnstein (2017)" /></p>
+<p>Fortunately the Caret library has convenience functions that automate this process.</p>
+<pre class="r"><code>control &lt;- trainControl(method=&quot;repeatedcv&quot;, repeats =3, classProbs= TRUE, summaryFunction = multiClassSummary)</code></pre>
+</div>
+<div id="build-models-using-different-algorithms" class="section level1">
+<h1>Build models using different algorithms</h1>
+<p>Let’s build a simple decision tree model and see the results.</p>
+<pre class="r"><code>m_tree&lt;- train(landuse~., data=train_dataset, method=&quot;rpart&quot;, 
+                trControl=control, preProcess = c(&quot;center&quot;, &quot;scale&quot;, &#39;nzv&#39;) )
+plot(m_tree$finalModel, uniform=TRUE, main=&quot;Classification Tree&quot;)
+text(m_tree$finalModel, cex = 0.8)</code></pre>
+<p><img src="../../post/2018-08-07-machine-learning-for-remote-sensing_files/figure-html/unnamed-chunk-12-1.png" width="768" /></p>
+<pre class="r"><code>
+varImp(m_tree, scale=TRUE) %&gt;% plot()</code></pre>
+<p><img src="../../post/2018-08-07-machine-learning-for-remote-sensing_files/figure-html/unnamed-chunk-12-2.png" width="768" /></p>
+<pre class="r"><code>pred_hold_tree &lt;- predict.train(m_tree,test_dataset, type=&#39;raw&#39;)
+confusionMatrix(pred_hold_tree,test_dataset[,&#39;landuse&#39;])
+# Confusion Matrix and Statistics
+# 
+#                Reference
+# Prediction      basin commercial construction forest grass industrial lake
+#   basin             0          0            0      0     0          0    0
+#   commercial        0          0            0      0     0          0    0
+#   construction      0          0            0      0     0          0    0
+#   forest            0          7            4     44     2          5    0
+#   grass             0          0            0      0     0          0    0
+#   industrial        0          0            0      0     0          0    0
+#   lake              0          0            0      0     0          0    0
+#   meadow            7          7            7     22    36         26    0
+#   railway           0          0            0      0     0          0    0
+#   residential      14        109          112     90    92        137    9
+#   retail            0          0            0      0     0          0    0
+#   river             0          0            0      0     0          0    0
+#   village_green     0          0            0      0     0          0    0
+#                Reference
+# Prediction      meadow railway residential retail river village_green
+#   basin              0       0           0      0     0             0
+#   commercial         0       0           0      0     0             0
+#   construction       0       0           0      0     0             0
+#   forest             8       0          20      0     0             0
+#   grass              0       0           0      0     0             0
+#   industrial         0       0           0      0     0             0
+#   lake               0       0           0      0     0             0
+#   meadow            61       0          59      0     0             1
+#   railway            0       0           0      0     0             0
+#   residential      256       3         875     73     7             4
+#   retail             0       0           0      0     0             0
+#   river              0       0           0      0     0             0
+#   village_green      0       0           0      0     0             0
+# 
+# Overall Statistics
+#                                          
+#                Accuracy : 0.4673         
+#                  95% CI : (0.4458, 0.489)
+#     No Information Rate : 0.4549         
+#     P-Value [Acc &gt; NIR] : 0.1318         
+#                                          
+#                   Kappa : 0.1028         
+#  Mcnemar&#39;s Test P-Value : NA             
+# 
+# Statistics by Class:
+# 
+#                      Class: basin Class: commercial Class: construction
+# Sensitivity               0.00000           0.00000             0.00000
+# Specificity               1.00000           1.00000             1.00000
+# Pos Pred Value                NaN               NaN                 NaN
+# Neg Pred Value            0.98999           0.94134             0.94134
+# Prevalence                0.01001           0.05866             0.05866
+# Detection Rate            0.00000           0.00000             0.00000
+# Detection Prevalence      0.00000           0.00000             0.00000
+# Balanced Accuracy         0.50000           0.50000             0.50000
+#                      Class: forest Class: grass Class: industrial
+# Sensitivity                0.28205      0.00000           0.00000
+# Specificity                0.97630      1.00000           1.00000
+# Pos Pred Value             0.48889          NaN               NaN
+# Neg Pred Value             0.94420      0.93801           0.91989
+# Prevalence                 0.07439      0.06199           0.08011
+# Detection Rate             0.02098      0.00000           0.00000
+# Detection Prevalence       0.04292      0.00000           0.00000
+# Balanced Accuracy          0.62918      0.50000           0.50000
+#                      Class: lake Class: meadow Class: railway
+# Sensitivity             0.000000       0.18769       0.000000
+# Specificity             1.000000       0.90688       1.000000
+# Pos Pred Value               NaN       0.26991            NaN
+# Neg Pred Value          0.995708       0.85890       0.998569
+# Prevalence              0.004292       0.15498       0.001431
+# Detection Rate          0.000000       0.02909       0.000000
+# Detection Prevalence    0.000000       0.10777       0.000000
+# Balanced Accuracy       0.500000       0.54729       0.500000
+#                      Class: residential Class: retail Class: river
+# Sensitivity                      0.9172       0.00000     0.000000
+# Specificity                      0.2073       1.00000     1.000000
+# Pos Pred Value                   0.4913           NaN          NaN
+# Neg Pred Value                   0.7500       0.96519     0.996662
+# Prevalence                       0.4549       0.03481     0.003338
+# Detection Rate                   0.4173       0.00000     0.000000
+# Detection Prevalence             0.8493       0.00000     0.000000
+# Balanced Accuracy                0.5623       0.50000     0.500000
+#                      Class: village_green
+# Sensitivity                      0.000000
+# Specificity                      1.000000
+# Pos Pred Value                        NaN
+# Neg Pred Value                   0.997616
+# Prevalence                       0.002384
+# Detection Rate                   0.000000
+# Detection Prevalence             0.000000
+# Balanced Accuracy                0.500000</code></pre>
+<p>This model has particularly low accuracy. Nevertheless, it is useful to predict the classes for the whole image and see where the issues might lie.</p>
+<pre class="r"><code>
+wuhan_tree_class &lt;- predict(wuhan_analysis_raster, m_tree, type=&#39;raw&#39;)
+library(rasterVis)
+levelplot(wuhan_tree_class, att=&#39;value&#39;, maxpixels = 1e6,
+          col.region = brewer.pal(n = 12,name=&#39;Set3&#39;),
+          scales=list(draw=FALSE),
+          main = &quot;Decision Tree classification&quot;)</code></pre>
+<p><img src="../../post/2018-08-07-machine-learning-for-remote-sensing_files/figure-html/unnamed-chunk-14-1.png" width="768" /></p>
+<hr />
+<p><strong>Exercise</strong></p>
+<ul>
+<li>Use better colors to represent the land use classes.</li>
+</ul>
+<hr />
+</div>
+<div id="note-on-performance-measures" class="section level1">
+<h1>Note on performance measures</h1>
+<p>Let us consider a binary classification (1, 0 classes) problem, as digression and consider the contingency table and define some terms</p>
+<p>True Positive (TP): When the algorithm results 1, when it should result 1 True Negative (TN): When the algorithm results 0, when it should be 0 False Positive (FP): When the algorithm results 1, when it should be 0 False Negative (FN): When the algorithm results 0, when it should be 1</p>
+<p>Once we define these terms, we can define</p>
+<ul>
+<li>Accuracy as <span class="math inline">\((TP+TN)/ (TP + TN + FP + FN)\)</span>; Accuracy can be terribly biased if there are large number of Negatives or Positives, i.e if the data is unbalanced</li>
+<li>Precision/Positive Predictive Value as <span class="math inline">\(TP/(TP +FP)\)</span>; What proportion of positive identifications was actually correct?</li>
+<li>Recall/Sensitivity as <span class="math inline">\(TP/(TP+FN)\)</span>; What proportion of actual positives was identified correctly?</li>
+<li>True Negative Rate/ Specificity as <span class="math inline">\(TN/(TN+FP)\)</span>; What proportion of negative identifications are actually correct</li>
+<li>F1-Scoare as harmonic mean of Precision and Recall.</li>
+</ul>
+<p>Instead of overall accuracy measure, F1-scores may be a better measure.</p>
+<p>These could be extended to multi-class classifications. Kappa is a measure of aggrement above random chance. Though it has been discouraged in recent literature (see <a href="https://doi.org/10.1016/j.rse.2014.02.015">Olofsson et.al (2014)</a>), it is still widely reported.</p>
+</div>
+<div id="choosing-among-different-predictive-algorithms" class="section level1">
+<h1>Choosing among different predictive algorithms</h1>
+<pre class="r"><code>
+library(doParallel)
+cl &lt;- makeCluster(detectCores(), type=&#39;PSOCK&#39;)
+registerDoParallel(cl)
+
+algos &lt;- c(&#39;multinom&#39;, &#39;kknn&#39;, &#39;ranger&#39;, &#39;xgbTree&#39;)
+
+m_algos &lt;- lapply(algos, function(x){train(landuse~., data=train_dataset, method=x, trControl=control, preProcess = c(&quot;center&quot;, &quot;scale&quot;, &#39;nzv&#39;)) })
+# # weights:  169 (144 variable)
+# initial  value 21591.743691 
+# iter  10 value 15279.758050
+# iter  20 value 14934.728474
+# iter  30 value 14380.673684
+# iter  40 value 13842.193344
+# iter  50 value 13613.664708
+# iter  60 value 13361.707928
+# iter  70 value 13187.561399
+# iter  80 value 13101.116466
+# iter  90 value 13060.011140
+# iter 100 value 13029.489257
+# final  value 13029.489257 
+# stopped after 100 iterations
+
+names(m_algos) &lt;- algos
+
+stopCluster(cl)
+
+# calculate resamples // exclude SIMCA and PLS
+resample_results &lt;- resamples(m_algos)
+# print results to console
+bwplot(resample_results , metric = c(&quot;Kappa&quot;,&quot;Accuracy&quot;))</code></pre>
+<p><img src="../../post/2018-08-07-machine-learning-for-remote-sensing_files/figure-html/unnamed-chunk-15-1.png" width="768" /></p>
+<pre class="r"><code>summary(resample_results,metric = c(&quot;Kappa&quot;,&quot;Accuracy&quot;,&quot;logLoss&quot;))
+# 
+# Call:
+# summary.resamples(object = resample_results, metric =
+#  c(&quot;Kappa&quot;, &quot;Accuracy&quot;, &quot;logLoss&quot;))
+# 
+# Models: multinom, kknn, ranger, xgbTree 
+# Number of resamples: 30 
+# 
+# Kappa 
+#                Min.   1st Qu.    Median      Mean   3rd Qu.      Max. NA&#39;s
+# multinom 0.09023512 0.1175729 0.1297837 0.1257976 0.1355029 0.1524353    0
+# kknn     0.09820182 0.1210611 0.1330322 0.1327952 0.1453471 0.1618723    0
+# ranger   0.09609287 0.1214234 0.1303866 0.1321867 0.1456224 0.1754346    0
+# xgbTree  0.13099472 0.1437757 0.1599380 0.1598303 0.1753843 0.1989419    0
+# 
+# Accuracy 
+#               Min.   1st Qu.    Median      Mean   3rd Qu.      Max. NA&#39;s
+# multinom 0.4543298 0.4717424 0.4768133 0.4760872 0.4807345 0.4946492    0
+# kknn     0.3773810 0.3950654 0.4017802 0.4022362 0.4127918 0.4250000    0
+# ranger   0.4323040 0.4460623 0.4520546 0.4539855 0.4607170 0.4798578    0
+# xgbTree  0.4703088 0.4786223 0.4854615 0.4864996 0.4943615 0.5029727    0
+# 
+# logLoss 
+#              Min.  1st Qu.   Median     Mean  3rd Qu.     Max. NA&#39;s
+# multinom 1.525963 1.547662 1.558289 1.563431 1.581868 1.608273    0
+# kknn     6.272756 6.708137 7.021630 7.002880 7.193902 7.961202    0
+# ranger   1.557651 1.613443 1.653690 1.659122 1.698669 1.775062    0
+# xgbTree  1.474478 1.501791 1.530771 1.521495 1.537707 1.559083    0</code></pre>
+<p>Despite all this effort, the mean accuracy is low. Furthermore, the even the maximum Kappa statistic is less than 20%. In other words, the machine learning algorithms are at best 20% better at predicting the land use than random chance alone.</p>
+<hr />
+<p><strong>Exercise</strong></p>
+<ul>
+<li>Explore the tuning parameters for each of the algorithms and try to optimise the performance of the model</li>
+<li>For each of these models, plot and describe the variable importance.</li>
+<li>Pick the best model of the lot and test its performance on the holdout dataset</li>
+<li>Visualise the result of the classification of the entire scene.</li>
+</ul>
+<hr />
+</div>
+<div id="potential-improvements" class="section level1">
+<h1>Potential Improvements</h1>
+<ul>
+<li>Get better training dataset. Reduce the number of classes, by merging similar classes.</li>
+<li>Perform image segmentation to extract objects and then use machine learning algorithms</li>
+<li>Add information from ancilliary datasets (such as distance to roads, railroads etc.)</li>
+<li>Tune the hyperparameters of model. Explore <code>caret</code> package documentation</li>
+<li>Work on feature engineering more.</li>
+<li>Try hierarchical image classification (impervious/water/barren/park at first level; residential/commerical/industrial within urban etc.)</li>
+</ul>
+</div>
+<div id="conclusions" class="section level1">
+<h1>Conclusions</h1>
+<p>In this post, I showed how machine learning can be used to classify remote sensing images. However, these methods are more general than satellite image applications. We can use these methods to predict time series data, classify textual informtion, identify sentiments in tweets and complaints and in general find patterns in data. While ML approaches are powerful, they are not always the most useful (as this post has shown) nor can they be a substitute for careful analysis, problem framing, data assembly, feature engineering, label data construction etc. Another big critique of the ML approaches are that most of them do not give us an understanding of the correlations. Causal relationships are even more problematic to ascertain. In any case, ML approaches, just like any other tool, should be used with caution and for appropriate purposes.</p>
+</div>
+<div id="acknowledgements" class="section level1">
+<h1>Acknowledgements</h1>
+<p>Parts of the code in this post is written by <a href="https://planning.unc.edu/student/chenyan/">Yan Chen</a>.</p>
+</div>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="https://sia.planning.unc.edu/tags/new-urban-analytics/">new-urban-analytics</a>
+  
+  <a class="btn btn-primary btn-outline" href="https://sia.planning.unc.edu/tags/machine-learning/">machine learning</a>
+  
+  <a class="btn btn-primary btn-outline" href="https://sia.planning.unc.edu/tags/techniques-short-course/">techniques-short-course</a>
+  
+</div>
+
+
+
+
+    
+    
+    <div class="article-widget">
+      <div class="hr-light"></div>
+      <h3>Related</h3>
+      <ul>
+        
+        <li><a href="../../post/scraping-web-for-data/">Scraping web for data</a></li>
+        
+        <li><a href="../../post/geospatial-data-in-r/">Geospatial Data in R</a></li>
+        
+        <li><a href="../../post/introduction-to-r-exploratory-data-visualisation/">Introduction to R &amp; Exploratory Data Visualisation</a></li>
+        
+        <li><a href="../../teaching/techniques-politics-short-course/">Techniques &amp; Politics of New Urban Analytics</a></li>
+        
+        <li><a href="../../post/cluster-detection-in-point-data/">Identifying Clusters of Events</a></li>
+        
+      </ul>
+    </div>
+    
+
+    
+
+    
+<section id="comments">
+  <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "nkaza" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy;2018 Nikhil Kaza &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+    <script id="dsq-count-scr" src="//nkaza.disqus.com/count.js" async></script>
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="../../js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+

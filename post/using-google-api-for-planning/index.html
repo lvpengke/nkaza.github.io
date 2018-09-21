@@ -476,7 +476,7 @@
 <li>Visualize the result</li>
 </ol>
 <p>The two main packages, we are going to use for scraping the Google is <a href="https://CRAN.R-project.org/package=rjson">RCurl</a> and <a href="https://CRAN.R-project.org/package=jsonlite">jsonlite</a>. Install them, if necessary and intialise them into the library.</p>
-<p>Curl is a command line tool that allows us to transfer data especially over the web. Rcurl is an interface for that tool. Because the result of the API query is formatted in JavaScript Object Notation (JSON), we use RJSON to parse it easily. JSON is lightweight data-interchange format.</p>
+<p>Curl is a command line tool that allows us to transfer data especially over the web. Rcurl is an interface for that tool. Because the result of the API query is formatted in JavaScript Object Notation (JSON), we use jsonlite to parse it easily. JSON is lightweight data-interchange format.</p>
 <div id="intialise-your-r-session" class="section level3">
 <h3>Intialise your R session</h3>
 <pre class="r"><code>##################### USE YOUR OWN KEY #########################
@@ -526,7 +526,7 @@ tmp &lt;- jsonlite::fromJSON(result)
 str(tmp, max.level = 2) # Setting max.level so that it won&#39;t overwhelm the page. Feel free to explore.
 # List of 4
 #  $ html_attributions: list()
-#  $ next_page_token  : chr &quot;CrQCIwEAAJS0Lauw-lfRNSyy_am0Um0nGGUt4j2-b8wC28Yc8UTJYIs-pT6NJUL0Pk5cZSDuMD6_kuTsLUBGLwSeFWPc9DhMN9zeKPF-jwU7lYh&quot;| __truncated__
+#  $ next_page_token  : chr &quot;CrQCIwEAABo7G0D4Ae2krSyMxbJ6B8Wo2yhET6wikfHux7SIikKPBZAwKpJWCe5OK6Xje4UVavPnMrCmB-7I9sYtjNm18FrnLJAiMfsvTFPL1_h&quot;| __truncated__
 #  $ results          :&#39;data.frame&#39;:    20 obs. of  14 variables:
 #   ..$ geometry     :&#39;data.frame&#39;: 20 obs. of  2 variables:
 #   ..$ icon         : chr [1:20] &quot;https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png&quot; &quot;https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png&quot; &quot;https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png&quot; &quot;https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png&quot; ...
@@ -606,13 +606,13 @@ tmp &lt;- google_places(search_string = &quot;Restaurant&quot;, location = c(35.
 restaurants2 &lt;- tmp$results
 
 restaurants2[, c(&#39;name&#39;, &#39;rating&#39;, &#39;price_level&#39;)] %&gt;% head()
-#                                       name rating price_level
-# 1              City Bus Burritos and Tacos    4.9          NA
-# 2                          Merritt&#39;s Grill    4.7           1
-# 3 Mediterranean Deli, Bakery, and Catering    4.6           2
-# 4                        Al&#39;s Burger Shack    4.7           1
-# 5                      Kipos Greek Taverna    4.6           2
-# 6                             Glasshalfull    4.5           3</code></pre>
+#                          name rating price_level
+# 1 City Bus Burritos and Tacos    4.9          NA
+# 2                     Lantern    4.5           3
+# 3                Glasshalfull    4.5           3
+# 4                      Tandem    4.5           3
+# 5         Kipos Greek Taverna    4.6           2
+# 6                     Kitchen    4.5           2</code></pre>
 <p>Googleway package has the abiltity to get more complicated data as well. For example, you can access the route between two points (say Old well to Southpoint mall)</p>
 <pre class="r"><code>tmp &lt;- google_directions(origin = c(35.912073,-79.05123),
                          destination = c(35.90497, -78.946485),
@@ -793,7 +793,7 @@ iso %&gt;% leaflet() %&gt;%
         
         <li><a href="../../post/geospatial-data-in-r/">Geospatial Data in R</a></li>
         
-        <li><a href="../../post/introduction-to-r-exploratory-data-visualisation/">Introduction to R &amp; Exploratory Data Visualisation</a></li>
+        <li><a href="../../teaching/techniques-politics-short-course/">Techniques &amp; Politics of New Urban Analytics</a></li>
         
       </ul>
     </div>

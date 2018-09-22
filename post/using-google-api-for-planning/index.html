@@ -17,7 +17,7 @@
       
     
   
-  <meta name="description" content="Introduction Legality Collect points of interest (POI) from Google Collect Streetview images from google Local Servers Unstructured data Conclusions Acknowledgements   Introduction Extracting data from un/semi/structured websites is becoming increasingly common place. Since data is collected, modified and refined continuously, it is increasingly useful to both serve them via web protocols rather than flat files that are downloaded. Furthermore, much of spatial data collection has become private, which also means that firms have stronger incentives to protect their datasets and curate what is available to the others.">
+  <meta name="description" content="Introduction Legality Collect points of interest (POI) from Google Collect streetview images from Google Local servers Unstructured data Conclusions Acknowledgements   Introduction Extracting data from un/semi/structured websites is becoming increasingly common place. Since data is collected, modified and refined continuously, it is increasingly useful to both serve them via web protocols rather than flat files that are downloaded. Furthermore, much of spatial data collection has become private, which also means that firms have stronger incentives to protect their datasets and curate what is available to the others.">
 
   
   <link rel="alternate" hreflang="en-us" href="../../post/using-google-api-for-planning/">
@@ -95,7 +95,7 @@
   <meta property="og:site_name" content="Nikhil Kaza">
   <meta property="og:url" content="/post/using-google-api-for-planning/">
   <meta property="og:title" content="Using Google API for Planning | Nikhil Kaza">
-  <meta property="og:description" content="Introduction Legality Collect points of interest (POI) from Google Collect Streetview images from google Local Servers Unstructured data Conclusions Acknowledgements   Introduction Extracting data from un/semi/structured websites is becoming increasingly common place. Since data is collected, modified and refined continuously, it is increasingly useful to both serve them via web protocols rather than flat files that are downloaded. Furthermore, much of spatial data collection has become private, which also means that firms have stronger incentives to protect their datasets and curate what is available to the others."><meta property="og:image" content="/img/headers/isochrones.png">
+  <meta property="og:description" content="Introduction Legality Collect points of interest (POI) from Google Collect streetview images from Google Local servers Unstructured data Conclusions Acknowledgements   Introduction Extracting data from un/semi/structured websites is becoming increasingly common place. Since data is collected, modified and refined continuously, it is increasingly useful to both serve them via web protocols rather than flat files that are downloaded. Furthermore, much of spatial data collection has become private, which also means that firms have stronger incentives to protect their datasets and curate what is available to the others."><meta property="og:image" content="/img/headers/isochrones.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-09-21T00:00:00&#43;00:00">
@@ -435,8 +435,8 @@
 <li><a href="#introduction">Introduction</a></li>
 <li><a href="#legality">Legality</a></li>
 <li><a href="#collect-points-of-interest-poi-from-google">Collect points of interest (POI) from Google</a></li>
-<li><a href="#collect-streetview-images-from-google">Collect Streetview images from google</a></li>
-<li><a href="#local-servers">Local Servers</a></li>
+<li><a href="#collect-streetview-images-from-google">Collect streetview images from Google</a></li>
+<li><a href="#local-servers">Local servers</a></li>
 <li><a href="#unstructured-data">Unstructured data</a></li>
 <li><a href="#conclusions">Conclusions</a></li>
 <li><a href="#acknowledgements">Acknowledgements</a></li>
@@ -490,11 +490,8 @@ library(sf)
 ################################################################</code></pre>
 </div>
 <div id="set-parameters" class="section level3">
-<h3>Set Parameters</h3>
-<p>According to the <a href="https://developers.google.com/places/web-service/search">API documentation</a>, we need to set a number of parameters to send the request to API. First, we will use the “round buffer” API to search all the restraunts within 2000 meters distance around UNC-Chapel Hill. You can extract the coordinates from <a href="https://www.gps-coordinates.net/" class="uri">https://www.gps-coordinates.net/</a> by searching for “Old Well”. The coordinates extracted are:</p>
-<blockquote>
-<p>Latitude: 35.912073 | Longitude: -79.05123</p>
-</blockquote>
+<h3>Set parameters</h3>
+<p>According to the <a href="https://developers.google.com/places/web-service/search">API documentation</a>, we need to set a number of parameters to send the request to API. First, we will use the “round buffer” API to search all the restraunts within 2000 meters distance around UNC-Chapel Hill. You can extract the coordinates from <a href="https://www.gps-coordinates.net/" class="uri">https://www.gps-coordinates.net/</a> by searching for “Old Well”. The coordinates extracted are:Latitude: 35.912073 | Longitude: -79.05123. You can also use Google maps, select a point and right click to get to ‘What is here?’ and copy the latitude and logitude.</p>
 <blockquote>
 <p>The Places API allows you to query for place information on a variety of categories, such as: establishments, prominent points of interest, geographic locations, and more. You can search for places either by proximity or a text string. A Place Search returns a list of places along with summary information about each place; additional information is available via a Place Details query.</p>
 </blockquote>
@@ -526,7 +523,7 @@ tmp &lt;- jsonlite::fromJSON(result)
 str(tmp, max.level = 2) # Setting max.level so that it won&#39;t overwhelm the page. Feel free to explore.
 # List of 4
 #  $ html_attributions: list()
-#  $ next_page_token  : chr &quot;CrQCIwEAABo7G0D4Ae2krSyMxbJ6B8Wo2yhET6wikfHux7SIikKPBZAwKpJWCe5OK6Xje4UVavPnMrCmB-7I9sYtjNm18FrnLJAiMfsvTFPL1_h&quot;| __truncated__
+#  $ next_page_token  : chr &quot;CrQCIwEAALmVhyBlYY9H9xi9qv2mOlCnLyMYBWhWl-lnMKpElkjWnwDFhdnZTKWJL0YRwvRNFpqU-wD0Y5UGO1zZ5ycCnJo7-zH18aAZ_o6cUmE&quot;| __truncated__
 #  $ results          :&#39;data.frame&#39;:    20 obs. of  14 variables:
 #   ..$ geometry     :&#39;data.frame&#39;: 20 obs. of  2 variables:
 #   ..$ icon         : chr [1:20] &quot;https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png&quot; &quot;https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png&quot; &quot;https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png&quot; &quot;https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png&quot; ...
@@ -606,13 +603,13 @@ tmp &lt;- google_places(search_string = &quot;Restaurant&quot;, location = c(35.
 restaurants2 &lt;- tmp$results
 
 restaurants2[, c(&#39;name&#39;, &#39;rating&#39;, &#39;price_level&#39;)] %&gt;% head()
-#                          name rating price_level
-# 1 City Bus Burritos and Tacos    4.9          NA
-# 2                     Lantern    4.5           3
-# 3                Glasshalfull    4.5           3
-# 4                      Tandem    4.5           3
-# 5         Kipos Greek Taverna    4.6           2
-# 6                     Kitchen    4.5           2</code></pre>
+#                                       name rating price_level
+# 1              City Bus Burritos and Tacos    4.9          NA
+# 2                             Glasshalfull    4.5           3
+# 3                                   Tandem    4.5           3
+# 4 Mediterranean Deli, Bakery, and Catering    4.6           2
+# 5                                  Kitchen    4.5           2
+# 6                      Kipos Greek Taverna    4.6           2</code></pre>
 <p>Googleway package has the abiltity to get more complicated data as well. For example, you can access the route between two points (say Old well to Southpoint mall)</p>
 <pre class="r"><code>tmp &lt;- google_directions(origin = c(35.912073,-79.05123),
                          destination = c(35.90497, -78.946485),
@@ -643,7 +640,7 @@ mapview(tmp)</code></pre>
 </div>
 </div>
 <div id="collect-streetview-images-from-google" class="section level1">
-<h1>Collect Streetview images from google</h1>
+<h1>Collect streetview images from Google</h1>
 <p>In this section, we will use Google streeview API to download the streetview images around UNC. For more detailed information about how the API works, Please see the <a href="https://developers.google.com/maps/documentation/streetview/intro">documentation</a>.</p>
 <p>There are two ways to send requests for streetview API, based on location or photoid. For this task we will use the location method to send the request.</p>
 <p>Accoriding to the document:</p>
@@ -664,24 +661,29 @@ t &lt;- httr::GET(SearchURL)
 
 #Save data using the writeJPEG function from jpeg package
 writeJPEG(content(t),&quot;name.jpg&quot;)</code></pre>
-<p>There are other factors that can be manipulate the outcome such as size,cheading, fov and pitch</p>
+<p>There are other parameters that can be manipulate the outcome such as size, heading, fov and pitch</p>
 <blockquote>
-<p>size - numeric vector of length 2, specifying the output size of the image in pixels, given in width x height. For example, c(600, 400) returns an image 600 pixles wide and 400 pixles high. heading - indicates the compass heading of the camera. Accepted values are from 0 to 360 (both 0 and 360 indicate north), 90 indicates east, 180 south and 270 west. If no heading is specified a value will be calculated that directs the camera to wards the specified location, from the point at which the closest photograph was taken. fov - determines the horizontal field of view of the image. The field of view is expressed in degrees, with a maximum allowed value of 120. When dealing with a fixed-size viewport, as with Street View image of a set size, field of view in essence represents zoom, with small numbers indicating a higher level of zoom. pitch - specifies the up or down angle of the camera relative to the Street View vehicle. This is often, but not always, flat horizontal. Positive values angle the camera up (with 90 degrees indicating straight up); negative values angle the camera down (with -90 indicating straight down</p>
+<ul>
+<li>size - numeric vector of length 2, specifying the output size of the image in pixels, given in width x height. For example, c(600, 400) returns an image 600 pixles wide and 400 pixles high.</li>
+<li>heading - indicates the compass heading of the camera. Accepted values are from 0 to 360 (both 0 and 360 indicate north), 90 indicates east, 180 south and 270 west. If no heading is specified a value will be calculated that directs the camera to wards the specified location, from the point at which the closest photograph was taken.</li>
+<li>fov - determines the horizontal field of view of the image. The field of view is expressed in degrees, with a maximum allowed value of 120. When dealing with a fixed-size viewport, as with Street View image of a set size, field of view in essence represents zoom, with small numbers indicating a higher level of zoom.</li>
+<li>pitch - specifies the up or down angle of the camera relative to the Street View vehicle. This is often, but not always, flat horizontal. Positive values angle the camera up (with 90 degrees indicating straight up); negative values angle the camera down (with -90 indicating straight down)</li>
+</ul>
 </blockquote>
 <hr />
 <p><strong>Exercise</strong></p>
 <ul>
-<li>Download the streetview images from 20 random points near the fire stations around Orange County and store them.</li>
+<li>Download the streetview images from 20 random points near the fire stations around Orange County and store them. Use different parameters for same location and notice the differences. What impact does this have on analysis when you use them for say segmenting the street scene into % area covered in ‘trees’, ‘roads’, ‘buildings’, ‘store front’ etc.</li>
 </ul>
 <hr />
 </div>
 <div id="local-servers" class="section level1">
-<h1>Local Servers</h1>
-<p>There is no reason to think that servers have to be remote. You can also query a local (on your computer) server and your R session acts like a client (e.g. browser). We can demonstrate this using OSRM server and constructing Isocrhrones. <a href="https://www.atlasobscura.com/articles/isochrone-maps-commutes-travel-times">Isochrones</a> are area you can reach from a point within a specified time. We can plot isochornes of every 2 min biking, around some random points in Orange County, NC For this we use the Open Source Routing Library (OSRM), though any other API works as well (e.g. Google, Mapbox etc. [see this blog] (<a href="https://mrakow.wordpress.com/2015/11/30/isochrone-generation-with-the-google-maps-api-using-a-quadtree/" class="uri">https://mrakow.wordpress.com/2015/11/30/isochrone-generation-with-the-google-maps-api-using-a-quadtree/</a>) for example.) .</p>
+<h1>Local servers</h1>
+<p>There is no reason to think that servers have to be remote. You can also query a local (on your computer) server and your R session acts like a client (e.g. browser). We can demonstrate this using OSRM server and constructing Isocrhrones. <a href="https://www.atlasobscura.com/articles/isochrone-maps-commutes-travel-times">Isochrones</a> are area you can reach from a point within a specified time. We can plot isochornes of every 2 min biking, around some random points in Orange County, NC For this we use the Open Source Routing Library (OSRM), though any other API works as well (e.g. Google, Mapbox etc. <a href="https://mrakow.wordpress.com/2015/11/30/isochrone-generation-with-the-google-maps-api-using-a-quadtree/">see this blog</a> for example.) .</p>
 <p>For our purposes, we are going to <a href="https://github.com/Project-OSRM/osrm-backend">set up a OSRM server</a> on your computer.</p>
 <ul>
-<li>Different OS require different instructions, so please follow the <a href="(https://github.com/Project-OSRM/osrm-backend)">website</a> to construct the backend for your OS.</li>
-<li>Download North Carolina road network from Openstreetmap. You can download a pbf file from <a href="https://download.geofabrik.de/north-america.html">Geofabrik</a></li>
+<li>Different OS require different instructions, so please follow the <a href="https://github.com/Project-OSRM/osrm-backend">website</a> to construct the backend for your OS.</li>
+<li>Download North Carolina road network from Openstreetmap from <a href="https://download.geofabrik.de/north-america.html">Geofabrik</a> for example (use the pbf file).</li>
 <li>Construct a graph that can be used for finding shortest routes. Use suitably modified versions of
 <ul>
 <li>osrm-extract nc.osm.pbf -p ./profiles/bicycle.lua</li>
@@ -793,7 +795,7 @@ iso %&gt;% leaflet() %&gt;%
         
         <li><a href="../../post/geospatial-data-in-r/">Geospatial Data in R</a></li>
         
-        <li><a href="../../post/introduction-to-r-exploratory-data-visualisation/">Introduction to R &amp; Exploratory Data Visualisation</a></li>
+        <li><a href="../../teaching/techniques-politics-short-course/">Techniques &amp; Politics of New Urban Analytics</a></li>
         
       </ul>
     </div>

@@ -5,6 +5,33 @@
     
     <url>
     
+      <loc>/post/transportation-energy-consumption/</loc>
+      <lastmod>2019-04-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/pengkazafruits/</loc>
+      <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/kazavainforesight/</loc>
+      <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/using-network-ananlysis-to-identify-clusters-of-deprivation/</loc>
       <lastmod>2018-09-24T00:00:00+00:00</lastmod>
     </url>
@@ -59,15 +86,6 @@
     
     <url>
     
-      <loc>/project/coastal-development/</loc>
-      <lastmod>2018-07-26T00:00:00-04:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/post/introduction-to-r-exploratory-data-visualisation/</loc>
       <lastmod>2018-07-26T00:00:00+00:00</lastmod>
     </url>
@@ -79,6 +97,15 @@
     
       <loc>/teaching/techniques-politics-short-course/</loc>
       <lastmod>2018-07-26T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/project/coastal-development/</loc>
+      <lastmod>2018-07-26T00:00:00+02:00</lastmod>
     </url>
     
   
@@ -140,69 +167,6 @@
     
     <url>
     
-      <loc>/tags/academic/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/talk/metropolitan-delineation/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/talk/missing-millions/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/post/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/talk/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/talk/after-hardin/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/publication/qiu2017jk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -212,8 +176,71 @@
     
     <url>
     
+      <loc>/tags/academic/</loc>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/talk/metropolitan-delineation/</loc>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/talk/missing-millions/</loc>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/</loc>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/</loc>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/talk/</loc>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/talk/after-hardin/</loc>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/project/irregular-settlements/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
     </url>
     
   
@@ -222,7 +249,7 @@
     <url>
     
       <loc>/project/planning-theory/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
     </url>
     
   
@@ -231,7 +258,7 @@
     <url>
     
       <loc>/project/energy-policy/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
     </url>
     
   
@@ -240,7 +267,7 @@
     <url>
     
       <loc>/project/smart-water-iot/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
     </url>
     
   
@@ -249,7 +276,7 @@
     <url>
     
       <loc>/project/urban-change/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
     </url>
     
   
@@ -746,7 +773,7 @@
     <url>
     
       <loc>/publication_types/2/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2019-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -785,7 +812,7 @@
     <url>
     
       <loc>/tags/american-indian-tribes/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -804,14 +831,6 @@
     
     <url>
     
-      <loc>/publication/pengkazafruits/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/categories/</loc>
       <priority>0</priority>
     </url>
@@ -822,7 +841,7 @@
     <url>
     
       <loc>/tags/china/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -832,7 +851,7 @@
     <url>
     
       <loc>/tags/community-detection/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -841,8 +860,24 @@
     
     <url>
     
+      <loc>/publication/he2019aa/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/onda2019aa/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/economy/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -852,7 +887,7 @@
     <url>
     
       <loc>/tags/energy-policy/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2019-04-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -872,7 +907,7 @@
     <url>
     
       <loc>/tags/equity/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -922,7 +957,7 @@
     <url>
     
       <loc>/tags/india/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -932,7 +967,7 @@
     <url>
     
       <loc>/tags/landscape-metrics/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -962,7 +997,7 @@
     <url>
     
       <loc>/tags/machine-learning/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -980,7 +1015,7 @@
     <url>
     
       <loc>/tags/networks/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1000,7 +1035,7 @@
     <url>
     
       <loc>/</loc>
-      <lastmod>2017-10-15T00:00:00-04:00</lastmod>
+      <lastmod>2017-10-15T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1010,7 +1045,7 @@
     <url>
     
       <loc>/tags/plans/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+      <lastmod>2019-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1030,7 +1065,7 @@
     <url>
     
       <loc>/project/</loc>
-      <lastmod>2018-07-26T00:00:00-04:00</lastmod>
+      <lastmod>2018-07-26T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1040,7 +1075,7 @@
     <url>
     
       <loc>/tags/property-rights/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1050,7 +1085,7 @@
     <url>
     
       <loc>/tags/public-good/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1070,7 +1105,7 @@
     <url>
     
       <loc>/categories/r/</loc>
-      <lastmod>2018-09-24T00:00:00+00:00</lastmod>
+      <lastmod>2019-04-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1080,7 +1115,7 @@
     <url>
     
       <loc>/tags/regional-science/</loc>
-      <lastmod>2018-09-12T00:00:00+00:00</lastmod>
+      <lastmod>2019-04-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1118,7 +1153,7 @@
     <url>
     
       <loc>/tags/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1158,7 +1193,7 @@
     <url>
     
       <loc>/tags/theory/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+      <lastmod>2019-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1187,8 +1222,16 @@
     
     <url>
     
+      <loc>/publication/kaza2019transport/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/urban-analytics/</loc>
-      <lastmod>2018-07-26T00:00:00-04:00</lastmod>
+      <lastmod>2018-07-26T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1198,7 +1241,7 @@
     <url>
     
       <loc>/tags/urban-change/</loc>
-      <lastmod>2018-07-26T00:00:00-04:00</lastmod>
+      <lastmod>2019-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1218,7 +1261,7 @@
     <url>
     
       <loc>/tags/urban-patterns/</loc>
-      <lastmod>2018-07-26T00:00:00-04:00</lastmod>
+      <lastmod>2018-07-26T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1227,16 +1270,8 @@
     
     <url>
     
-      <loc>/publication/kazavainforesight/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/tags/water/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     

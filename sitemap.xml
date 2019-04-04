@@ -167,6 +167,24 @@
     
     <url>
     
+      <loc>https://sia.planning.unc.edu/talk/urban-form-measurement/</loc>
+      <lastmod>2018-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://sia.planning.unc.edu/talk/transport-energy-use/</loc>
+      <lastmod>2018-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://sia.planning.unc.edu/publication/qiu2017jk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -177,24 +195,6 @@
     <url>
     
       <loc>https://sia.planning.unc.edu/tags/academic/</loc>
-      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://sia.planning.unc.edu/talk/metropolitan-delineation/</loc>
-      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://sia.planning.unc.edu/talk/missing-millions/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
@@ -222,15 +222,6 @@
     <url>
     
       <loc>https://sia.planning.unc.edu/talk/</loc>
-      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://sia.planning.unc.edu/talk/after-hardin/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
@@ -850,16 +841,6 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/community-detection/</loc>
-      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://sia.planning.unc.edu/publication/he2019aa/</loc>
     </url>
     
@@ -957,7 +938,6 @@
     <url>
     
       <loc>https://sia.planning.unc.edu/tags/india/</loc>
-      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1015,7 +995,6 @@
     <url>
     
       <loc>https://sia.planning.unc.edu/tags/networks/</loc>
-      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1075,7 +1054,7 @@
     <url>
     
       <loc>https://sia.planning.unc.edu/tags/property-rights/</loc>
-      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+      <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1203,7 +1182,7 @@
     <url>
     
       <loc>https://sia.planning.unc.edu/tags/transportation/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1242,6 +1221,16 @@
     
       <loc>https://sia.planning.unc.edu/tags/urban-change/</loc>
       <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://sia.planning.unc.edu/tags/urban-form/</loc>
+      <lastmod>2018-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     

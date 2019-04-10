@@ -5,7 +5,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/post/transportation-energy-consumption/</loc>
+      <loc>/post/transportation-energy-consumption/</loc>
       <lastmod>2019-04-02T00:00:00+00:00</lastmod>
     </url>
     
@@ -14,7 +14,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/pengkazafruits/</loc>
+      <loc>/publication/pengkazafruits/</loc>
       <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -23,7 +23,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kazavainforesight/</loc>
+      <loc>/publication/kazavainforesight/</loc>
       <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -32,7 +32,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/post/using-network-ananlysis-to-identify-clusters-of-deprivation/</loc>
+      <loc>/post/using-network-ananlysis-to-identify-clusters-of-deprivation/</loc>
       <lastmod>2018-09-24T00:00:00+00:00</lastmod>
     </url>
     
@@ -41,7 +41,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/post/using-google-api-for-planning/</loc>
+      <loc>/post/using-google-api-for-planning/</loc>
       <lastmod>2018-09-21T00:00:00+00:00</lastmod>
     </url>
     
@@ -50,7 +50,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/post/analysing-urban-neworks/</loc>
+      <loc>/post/analysing-urban-neworks/</loc>
       <lastmod>2018-09-12T00:00:00+00:00</lastmod>
     </url>
     
@@ -59,7 +59,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/post/machine-learning-for-remote-sensing/</loc>
+      <loc>/post/machine-learning-for-remote-sensing/</loc>
       <lastmod>2018-08-07T00:00:00+00:00</lastmod>
     </url>
     
@@ -68,7 +68,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/post/scraping-web-for-data/</loc>
+      <loc>/post/scraping-web-for-data/</loc>
       <lastmod>2018-08-03T00:00:00+00:00</lastmod>
     </url>
     
@@ -77,7 +77,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/post/geospatial-data-in-r/</loc>
+      <loc>/post/geospatial-data-in-r/</loc>
       <lastmod>2018-07-29T00:00:00+00:00</lastmod>
     </url>
     
@@ -86,7 +86,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/post/introduction-to-r-exploratory-data-visualisation/</loc>
+      <loc>/post/introduction-to-r-exploratory-data-visualisation/</loc>
       <lastmod>2018-07-26T00:00:00+00:00</lastmod>
     </url>
     
@@ -95,7 +95,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/teaching/techniques-politics-short-course/</loc>
+      <loc>/teaching/techniques-politics-short-course/</loc>
       <lastmod>2018-07-26T00:00:00+00:00</lastmod>
     </url>
     
@@ -104,7 +104,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/project/coastal-development/</loc>
+      <loc>/project/coastal-development/</loc>
       <lastmod>2018-07-26T00:00:00+02:00</lastmod>
     </url>
     
@@ -113,7 +113,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/post/cluster-detection-in-point-data/</loc>
+      <loc>/post/cluster-detection-in-point-data/</loc>
       <lastmod>2018-07-09T00:00:00+00:00</lastmod>
     </url>
     
@@ -122,7 +122,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/post/spatial-regression-discontinuity-design-setup/</loc>
+      <loc>/post/spatial-regression-discontinuity-design-setup/</loc>
       <lastmod>2018-07-08T00:00:00+00:00</lastmod>
     </url>
     
@@ -131,7 +131,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/post/identifying-employment-centers/</loc>
+      <loc>/post/identifying-employment-centers/</loc>
       <lastmod>2018-07-04T00:00:00+00:00</lastmod>
     </url>
     
@@ -140,7 +140,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/post/urban-morphology-landscape-metrics/</loc>
+      <loc>/post/urban-morphology-landscape-metrics/</loc>
       <lastmod>2018-07-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -149,7 +149,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/post/using-blogdown/</loc>
+      <loc>/post/using-blogdown/</loc>
       <lastmod>2018-06-30T00:00:00+00:00</lastmod>
     </url>
     
@@ -158,7 +158,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/li2017/</loc>
+      <loc>/publication/li2017/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -167,7 +167,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/talk/urban-form-measurement/</loc>
+      <loc>/talk/urban-form-measurement/</loc>
       <lastmod>2018-01-01T00:00:00+01:00</lastmod>
     </url>
     
@@ -176,7 +176,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/talk/transport-energy-use/</loc>
+      <loc>/talk/transport-energy-use/</loc>
       <lastmod>2018-01-01T00:00:00+01:00</lastmod>
     </url>
     
@@ -185,7 +185,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/qiu2017jk/</loc>
+      <loc>/publication/qiu2017jk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -194,7 +194,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/academic/</loc>
+      <loc>/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
@@ -203,7 +203,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/post/</loc>
+      <loc>/post/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
@@ -212,7 +212,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/</loc>
+      <loc>/publication/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
@@ -221,7 +221,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/talk/</loc>
+      <loc>/talk/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
@@ -230,7 +230,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/project/irregular-settlements/</loc>
+      <loc>/project/irregular-settlements/</loc>
       <lastmod>2016-04-27T00:00:00+02:00</lastmod>
     </url>
     
@@ -239,7 +239,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/project/planning-theory/</loc>
+      <loc>/project/planning-theory/</loc>
       <lastmod>2016-04-27T00:00:00+02:00</lastmod>
     </url>
     
@@ -248,7 +248,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/project/energy-policy/</loc>
+      <loc>/project/energy-policy/</loc>
       <lastmod>2016-04-27T00:00:00+02:00</lastmod>
     </url>
     
@@ -257,7 +257,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/project/smart-water-iot/</loc>
+      <loc>/project/smart-water-iot/</loc>
       <lastmod>2016-04-27T00:00:00+02:00</lastmod>
     </url>
     
@@ -266,7 +266,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/project/urban-change/</loc>
+      <loc>/project/urban-change/</loc>
       <lastmod>2016-04-27T00:00:00+02:00</lastmod>
     </url>
     
@@ -275,7 +275,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kazaedq/</loc>
+      <loc>/publication/kazaedq/</loc>
       <lastmod>2016-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -284,7 +284,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kazahpd2016/</loc>
+      <loc>/publication/kazahpd2016/</loc>
       <lastmod>2016-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -293,7 +293,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/zapatadz/</loc>
+      <loc>/publication/zapatadz/</loc>
       <lastmod>2015-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -302,7 +302,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kazatda/</loc>
+      <loc>/publication/kazatda/</loc>
       <lastmod>2015-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -311,7 +311,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kazawpyo/</loc>
+      <loc>/publication/kazawpyo/</loc>
       <lastmod>2015-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -320,7 +320,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kaza2013tg/</loc>
+      <loc>/publication/kaza2013tg/</loc>
       <lastmod>2014-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -329,7 +329,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kaza2013fk/</loc>
+      <loc>/publication/kaza2013fk/</loc>
       <lastmod>2014-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -338,7 +338,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kaza2013fv/</loc>
+      <loc>/publication/kaza2013fv/</loc>
       <lastmod>2014-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -347,7 +347,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kazatepeval/</loc>
+      <loc>/publication/kazatepeval/</loc>
       <lastmod>2014-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -356,7 +356,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/lesterwpjo/</loc>
+      <loc>/publication/lesterwpjo/</loc>
       <lastmod>2013-09-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -365,7 +365,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kazafe/</loc>
+      <loc>/publication/kazafe/</loc>
       <lastmod>2013-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -374,7 +374,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kazaec/</loc>
+      <loc>/publication/kazaec/</loc>
       <lastmod>2013-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -383,7 +383,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kaza2013kx/</loc>
+      <loc>/publication/kaza2013kx/</loc>
       <lastmod>2013-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -392,7 +392,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/brookshire2013bs/</loc>
+      <loc>/publication/brookshire2013bs/</loc>
       <lastmod>2013-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -401,7 +401,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kaza_changing_2013/</loc>
+      <loc>/publication/kaza_changing_2013/</loc>
       <lastmod>2013-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -410,7 +410,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kaza2013uq/</loc>
+      <loc>/publication/kaza2013uq/</loc>
       <lastmod>2013-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -419,7 +419,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/bendor2028vn/</loc>
+      <loc>/publication/bendor2028vn/</loc>
       <lastmod>2012-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -428,7 +428,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kaza2012zr/</loc>
+      <loc>/publication/kaza2012zr/</loc>
       <lastmod>2012-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -437,7 +437,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kazarw/</loc>
+      <loc>/publication/kazarw/</loc>
       <lastmod>2012-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -446,7 +446,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/brookshiredk/</loc>
+      <loc>/publication/brookshiredk/</loc>
       <lastmod>2012-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -455,7 +455,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kazami/</loc>
+      <loc>/publication/kazami/</loc>
       <lastmod>2012-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -464,7 +464,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kaza2011qf/</loc>
+      <loc>/publication/kaza2011qf/</loc>
       <lastmod>2011-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -473,7 +473,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/bendordw/</loc>
+      <loc>/publication/bendordw/</loc>
       <lastmod>2011-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -482,7 +482,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kaza2011dq/</loc>
+      <loc>/publication/kaza2011dq/</loc>
       <lastmod>2011-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -491,7 +491,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kaza_knaap_2011/</loc>
+      <loc>/publication/kaza_knaap_2011/</loc>
       <lastmod>2011-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -500,7 +500,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/chakraborty2011lr/</loc>
+      <loc>/publication/chakraborty2011lr/</loc>
       <lastmod>2011-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -509,7 +509,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/zapataay/</loc>
+      <loc>/publication/zapataay/</loc>
       <lastmod>2011-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -518,7 +518,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/knaappt/</loc>
+      <loc>/publication/knaappt/</loc>
       <lastmod>2010-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -527,7 +527,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/blohmxq/</loc>
+      <loc>/publication/blohmxq/</loc>
       <lastmod>2010-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -536,7 +536,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kazahq/</loc>
+      <loc>/publication/kazahq/</loc>
       <lastmod>2010-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -545,7 +545,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kaza2010lr/</loc>
+      <loc>/publication/kaza2010lr/</loc>
       <lastmod>2010-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -554,7 +554,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kazaxw/</loc>
+      <loc>/publication/kazaxw/</loc>
       <lastmod>2009-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -563,7 +563,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kazakn/</loc>
+      <loc>/publication/kazakn/</loc>
       <lastmod>2009-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -572,7 +572,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kaza2009fk/</loc>
+      <loc>/publication/kaza2009fk/</loc>
       <lastmod>2009-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -581,7 +581,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kaza2009nx/</loc>
+      <loc>/publication/kaza2009nx/</loc>
       <lastmod>2009-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -590,7 +590,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/knaapee/</loc>
+      <loc>/publication/knaapee/</loc>
       <lastmod>2008-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -599,7 +599,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kaza_reasoning_2008/</loc>
+      <loc>/publication/kaza_reasoning_2008/</loc>
       <lastmod>2008-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -608,7 +608,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kaza_ontology_2007/</loc>
+      <loc>/publication/kaza_ontology_2007/</loc>
       <lastmod>2007-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -617,7 +617,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kazaos/</loc>
+      <loc>/publication/kazaos/</loc>
       <lastmod>2007-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -626,7 +626,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kaza_updating_2007/</loc>
+      <loc>/publication/kaza_updating_2007/</loc>
       <lastmod>2007-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -635,7 +635,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/calderon_gamesevolving_2006/</loc>
+      <loc>/publication/calderon_gamesevolving_2006/</loc>
       <lastmod>2006-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -644,7 +644,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kazakb/</loc>
+      <loc>/publication/kazakb/</loc>
       <lastmod>2006-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -653,7 +653,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kazaqf/</loc>
+      <loc>/publication/kazaqf/</loc>
       <lastmod>2006-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -662,7 +662,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kazaqq/</loc>
+      <loc>/publication/kazaqq/</loc>
       <lastmod>2006-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -671,7 +671,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/donaghy_value_2006/</loc>
+      <loc>/publication/donaghy_value_2006/</loc>
       <lastmod>2006-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -680,7 +680,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kaza2006oq/</loc>
+      <loc>/publication/kaza2006oq/</loc>
       <lastmod>2006-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -689,7 +689,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/hopkins_data_2005/</loc>
+      <loc>/publication/hopkins_data_2005/</loc>
       <lastmod>2005-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -698,7 +698,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kaza_deliberations_2005/</loc>
+      <loc>/publication/kaza_deliberations_2005/</loc>
       <lastmod>2005-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -707,7 +707,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/hopkins_representing_2005/</loc>
+      <loc>/publication/hopkins_representing_2005/</loc>
       <lastmod>2005-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -716,7 +716,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kaza_towardsdata_2004/</loc>
+      <loc>/publication/kaza_towardsdata_2004/</loc>
       <lastmod>2004-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -725,7 +725,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/hopkins_planning_2003-1/</loc>
+      <loc>/publication/hopkins_planning_2003-1/</loc>
       <lastmod>2003-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -734,7 +734,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/hopkins_shared_2003-1/</loc>
+      <loc>/publication/hopkins_shared_2003-1/</loc>
       <lastmod>2003-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -743,7 +743,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication_types/0/</loc>
+      <loc>/publication_types/0/</loc>
       <lastmod>2008-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -753,7 +753,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication_types/1/</loc>
+      <loc>/publication_types/1/</loc>
       <lastmod>2014-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -763,7 +763,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication_types/2/</loc>
+      <loc>/publication_types/2/</loc>
       <lastmod>2019-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -773,7 +773,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication_types/3/</loc>
+      <loc>/publication_types/3/</loc>
       <priority>0</priority>
     </url>
     
@@ -782,7 +782,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication_types/6/</loc>
+      <loc>/publication_types/6/</loc>
       <lastmod>2011-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -792,7 +792,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/accessibility/</loc>
+      <loc>/tags/accessibility/</loc>
       <lastmod>2016-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -802,7 +802,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/american-indian-tribes/</loc>
+      <loc>/tags/american-indian-tribes/</loc>
       <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -812,7 +812,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/blogdown/</loc>
+      <loc>/tags/blogdown/</loc>
       <lastmod>2018-06-30T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -822,7 +822,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/categories/</loc>
+      <loc>/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -831,7 +831,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/china/</loc>
+      <loc>/tags/china/</loc>
       <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -841,7 +841,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/he2019aa/</loc>
+      <loc>/publication/he2019aa/</loc>
     </url>
     
   
@@ -849,7 +849,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/onda2019aa/</loc>
+      <loc>/publication/onda2019aa/</loc>
     </url>
     
   
@@ -857,7 +857,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/economy/</loc>
+      <loc>/tags/economy/</loc>
       <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -867,7 +867,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/energy-policy/</loc>
+      <loc>/tags/energy-policy/</loc>
       <lastmod>2019-04-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -877,7 +877,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/environment/</loc>
+      <loc>/tags/environment/</loc>
       <lastmod>2015-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -887,7 +887,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/equity/</loc>
+      <loc>/tags/equity/</loc>
       <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -897,7 +897,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/li2018/</loc>
+      <loc>/publication/li2018/</loc>
     </url>
     
   
@@ -905,7 +905,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/teaching/techniques_hw/hw1/</loc>
+      <loc>/teaching/techniques_hw/hw1/</loc>
     </url>
     
   
@@ -913,7 +913,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/teaching/techniques_hw/hw2/</loc>
+      <loc>/teaching/techniques_hw/hw2/</loc>
     </url>
     
   
@@ -921,7 +921,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/teaching/techniques_hw/hw3/</loc>
+      <loc>/teaching/techniques_hw/hw3/</loc>
     </url>
     
   
@@ -929,7 +929,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/teaching/techniques_hw/hw4/</loc>
+      <loc>/teaching/techniques_hw/hw4/</loc>
     </url>
     
   
@@ -937,7 +937,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/india/</loc>
+      <loc>/tags/india/</loc>
       <priority>0</priority>
     </url>
     
@@ -946,7 +946,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/landscape-metrics/</loc>
+      <loc>/tags/landscape-metrics/</loc>
       <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -956,7 +956,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/landuse/</loc>
+      <loc>/tags/landuse/</loc>
       <lastmod>2015-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -966,7 +966,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/machine-learning/</loc>
+      <loc>/tags/machine-learning/</loc>
       <lastmod>2018-08-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -976,7 +976,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/machine-learning/</loc>
+      <loc>/tags/machine-learning/</loc>
       <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -986,7 +986,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kazamagpie_india/</loc>
+      <loc>/publication/kazamagpie_india/</loc>
     </url>
     
   
@@ -994,7 +994,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/networks/</loc>
+      <loc>/tags/networks/</loc>
       <priority>0</priority>
     </url>
     
@@ -1003,7 +1003,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/new-urban-analytics/</loc>
+      <loc>/tags/new-urban-analytics/</loc>
       <lastmod>2018-09-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1013,7 +1013,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/</loc>
+      <loc>/</loc>
       <lastmod>2017-10-15T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1023,7 +1023,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/plans/</loc>
+      <loc>/tags/plans/</loc>
       <lastmod>2019-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1033,7 +1033,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/policy-evaluation/</loc>
+      <loc>/tags/policy-evaluation/</loc>
       <lastmod>2018-07-08T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1043,7 +1043,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/project/</loc>
+      <loc>/project/</loc>
       <lastmod>2018-07-26T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1053,7 +1053,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/property-rights/</loc>
+      <loc>/tags/property-rights/</loc>
       <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1063,7 +1063,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/public-good/</loc>
+      <loc>/tags/public-good/</loc>
       <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1073,7 +1073,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication_types/</loc>
+      <loc>/publication_types/</loc>
       <lastmod>2008-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1083,7 +1083,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/categories/r/</loc>
+      <loc>/categories/r/</loc>
       <lastmod>2019-04-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1093,7 +1093,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/regional-science/</loc>
+      <loc>/tags/regional-science/</loc>
       <lastmod>2019-04-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1103,7 +1103,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/scenario-planning/</loc>
+      <loc>/tags/scenario-planning/</loc>
       <lastmod>2015-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1113,7 +1113,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/spatial-statistics/</loc>
+      <loc>/tags/spatial-statistics/</loc>
       <lastmod>2018-07-09T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1123,7 +1123,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/lesterkazamcadam2018/</loc>
+      <loc>/publication/lesterkazamcadam2018/</loc>
     </url>
     
   
@@ -1131,7 +1131,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/</loc>
+      <loc>/tags/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1141,7 +1141,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/teaching/</loc>
+      <loc>/tags/teaching/</loc>
       <lastmod>2018-07-26T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1151,7 +1151,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/teaching/</loc>
+      <loc>/teaching/</loc>
       <lastmod>2018-07-26T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1161,7 +1161,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/techniques-short-course/</loc>
+      <loc>/tags/techniques-short-course/</loc>
       <lastmod>2018-09-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1171,7 +1171,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/theory/</loc>
+      <loc>/tags/theory/</loc>
       <lastmod>2019-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1181,7 +1181,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/transportation/</loc>
+      <loc>/tags/transportation/</loc>
       <lastmod>2018-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1191,7 +1191,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/unsupervised-classification/</loc>
+      <loc>/tags/unsupervised-classification/</loc>
       <lastmod>2018-07-09T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1201,7 +1201,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kaza2019transport/</loc>
+      <loc>/publication/kaza2019transport/</loc>
     </url>
     
   
@@ -1209,7 +1209,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/urban-analytics/</loc>
+      <loc>/tags/urban-analytics/</loc>
       <lastmod>2018-07-26T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1219,7 +1219,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/urban-change/</loc>
+      <loc>/tags/urban-change/</loc>
       <lastmod>2019-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1229,7 +1229,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/urban-form/</loc>
+      <loc>/tags/urban-form/</loc>
       <lastmod>2018-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1239,7 +1239,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/urban-morphology/</loc>
+      <loc>/tags/urban-morphology/</loc>
       <lastmod>2018-07-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1249,7 +1249,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/urban-patterns/</loc>
+      <loc>/tags/urban-patterns/</loc>
       <lastmod>2018-07-26T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1259,7 +1259,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/water/</loc>
+      <loc>/tags/water/</loc>
       <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1269,7 +1269,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/tags/web-2.0/</loc>
+      <loc>/tags/web-2.0/</loc>
       <lastmod>2018-09-21T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1279,7 +1279,7 @@
     
     <url>
     
-      <loc>https://sia.planning.unc.edu/publication/kazaetal2018whoseplan/</loc>
+      <loc>/publication/kazaetal2018whoseplan/</loc>
     </url>
     
   

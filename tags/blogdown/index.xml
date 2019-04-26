@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blogdown on Nikhil Kaza</title>
+    <link>https://sia.planning.unc.edu/tags/blogdown/</link>
+    <description>Recent content in blogdown on Nikhil Kaza</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
+    <lastBuildDate>Sat, 30 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sia.planning.unc.edu/tags/blogdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using Blogdown and Github</title>
+      <link>https://sia.planning.unc.edu/post/2018-06-30-using-blogdown-and-github/using-blogdown/</link>
+      <pubDate>Sat, 30 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sia.planning.unc.edu/post/2018-06-30-using-blogdown-and-github/using-blogdown/</guid>
+      <description>Quick guide to blogdown</description>
+    </item>
+    
+  </channel>
+</rss>

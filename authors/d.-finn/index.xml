@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>D. Finn on Nikhil Kaza</title>
+    <link>https://sia.planning.unc.edu/authors/d.-finn/</link>
+    <description>Recent content in D. Finn on Nikhil Kaza</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
+    <lastBuildDate>Thu, 01 Jan 2009 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://sia.planning.unc.edu/authors/d.-finn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Updating Plans: A Historiography of Decisions Over Time</title>
+      <link>https://sia.planning.unc.edu/publication/kaza-2009-nx/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0100</pubDate>
+      
+      <guid>https://sia.planning.unc.edu/publication/kaza-2009-nx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Updating Plans: A historiography of decision over time</title>
+      <link>https://sia.planning.unc.edu/publication/kaza-updating-2007/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0100</pubDate>
+      
+      <guid>https://sia.planning.unc.edu/publication/kaza-updating-2007/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>policy-evaluation on Nikhil Kaza</title>
+    <link>https://sia.planning.unc.edu/tags/policy-evaluation/</link>
+    <description>Recent content in policy-evaluation on Nikhil Kaza</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
+    <lastBuildDate>Sun, 08 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sia.planning.unc.edu/tags/policy-evaluation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spatial Regression Discontinuity Design Setup</title>
+      <link>https://sia.planning.unc.edu/post/2018-07-08-spatial-regression-discontinuity-design-setup/spatial-regression-discontinuity-design-setup/</link>
+      <pubDate>Sun, 08 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sia.planning.unc.edu/post/2018-07-08-spatial-regression-discontinuity-design-setup/spatial-regression-discontinuity-design-setup/</guid>
+      <description>Exploiting sharp edges at the border of a jurisdiction to test the effect of a program/policy.</description>
+    </item>
+    
+    <item>
+      <title>Evaluating the impacts of the clean cities program</title>
+      <link>https://sia.planning.unc.edu/publication/qiu-2017-jk/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://sia.planning.unc.edu/publication/qiu-2017-jk/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

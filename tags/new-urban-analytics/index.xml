@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>new-urban-analytics on Nikhil Kaza</title>
+    <link>https://sia.planning.unc.edu/tags/new-urban-analytics/</link>
+    <description>Recent content in new-urban-analytics on Nikhil Kaza</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
+    <lastBuildDate>Mon, 24 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sia.planning.unc.edu/tags/new-urban-analytics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Regions of Deprivation</title>
+      <link>https://sia.planning.unc.edu/post/2018-09-24-using-network-ananlysis-to-identify-clusters-of-deprivation/using-network-ananlysis-to-identify-clusters-of-deprivation/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sia.planning.unc.edu/post/2018-09-24-using-network-ananlysis-to-identify-clusters-of-deprivation/using-network-ananlysis-to-identify-clusters-of-deprivation/</guid>
+      <description>Spatial clusters of deprivation and their patterns</description>
+    </item>
+    
+    <item>
+      <title>Using Google API for Planning</title>
+      <link>https://sia.planning.unc.edu/post/2018-09-21-using-google-api-for-planning/using-google-api-for-planning/</link>
+      <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sia.planning.unc.edu/post/2018-09-21-using-google-api-for-planning/using-google-api-for-planning/</guid>
+      <description>Finding density of places, service deserts using Google and OSRM.</description>
+    </item>
+    
+    <item>
+      <title>Analysing Urban Neworks</title>
+      <link>https://sia.planning.unc.edu/post/2018-09-12-analysing-urban-neworks/analysing-urban-neworks/</link>
+      <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sia.planning.unc.edu/post/2018-09-12-analysing-urban-neworks/analysing-urban-neworks/</guid>
+      <description>A brief introduction to network analysis.</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning for Remote Sensing</title>
+      <link>https://sia.planning.unc.edu/post/2018-08-07-machine-learning-for-remote-sensing/machine-learning-for-remote-sensing/</link>
+      <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sia.planning.unc.edu/post/2018-08-07-machine-learning-for-remote-sensing/machine-learning-for-remote-sensing/</guid>
+      <description>Classification trees, random forests, neural networks and the like.</description>
+    </item>
+    
+    <item>
+      <title>Scraping web for data</title>
+      <link>https://sia.planning.unc.edu/post/2018-08-03-scraping-web-for-data/scraping-web-for-data/</link>
+      <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sia.planning.unc.edu/post/2018-08-03-scraping-web-for-data/scraping-web-for-data/</guid>
+      <description>Parsing data that is served through REST API.</description>
+    </item>
+    
+    <item>
+      <title>Geospatial Data in R</title>
+      <link>https://sia.planning.unc.edu/post/2018-07-29-geospatial-data-in-r/geospatial-data-in-r/</link>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sia.planning.unc.edu/post/2018-07-29-geospatial-data-in-r/geospatial-data-in-r/</guid>
+      <description>Geospatial data in R, using Citi Bike Share in New York city as a case.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to R &amp; Exploratory Data Visualisation</title>
+      <link>https://sia.planning.unc.edu/post/2018-07-26-introduction-to-r-exploratory-data-visualisation/introduction-to-r-exploratory-data-visualisation/</link>
+      <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sia.planning.unc.edu/post/2018-07-26-introduction-to-r-exploratory-data-visualisation/introduction-to-r-exploratory-data-visualisation/</guid>
+      <description>Introduction to R and some exploratory graphics using air pollution data in the US.</description>
+    </item>
+    
+    <item>
+      <title>Techniques &amp; Politics of New Urban Analytics</title>
+      <link>https://sia.planning.unc.edu/teaching/techniques-politics-short-course/</link>
+      <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sia.planning.unc.edu/teaching/techniques-politics-short-course/</guid>
+      <description>A short course on urban analytics in R. And a critical look at urban analytics.</description>
+    </item>
+    
+    <item>
+      <title>Identifying Clusters of Events</title>
+      <link>https://sia.planning.unc.edu/post/2018-07-09-point-pattern-analysis-and-cluster-detection/cluster-detection-in-point-data/</link>
+      <pubDate>Mon, 09 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sia.planning.unc.edu/post/2018-07-09-point-pattern-analysis-and-cluster-detection/cluster-detection-in-point-data/</guid>
+      <description>Spatial cluster detection.</description>
+    </item>
+    
+    <item>
+      <title>Identifying Employment Centers</title>
+      <link>https://sia.planning.unc.edu/post/2018-07-04-identifying-employment-centers/identifying-employment-centers/</link>
+      <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sia.planning.unc.edu/post/2018-07-04-identifying-employment-centers/identifying-employment-centers/</guid>
+      <description>McMillen method of identifying outliers in local neighborhood.</description>
+    </item>
+    
+    <item>
+      <title>Urban Morphology &amp; Landscape Metrics</title>
+      <link>https://sia.planning.unc.edu/post/2018-07-01-urban-morphology-landscape-metrics/urban-morphology-landscape-metrics/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://sia.planning.unc.edu/post/2018-07-01-urban-morphology-landscape-metrics/urban-morphology-landscape-metrics/</guid>
+      <description>Creating urban landscape metrics</description>
+    </item>
+    
+    <item>
+      <title>Irregular/Informal Settlement Detection</title>
+      <link>https://sia.planning.unc.edu/project/irregular-settlements/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://sia.planning.unc.edu/project/irregular-settlements/</guid>
+      <description>Machine learning techniques to identify irregular settlements</description>
+    </item>
+    
+    <item>
+      <title>Smart Water Management and Internet of Things</title>
+      <link>https://sia.planning.unc.edu/project/smartwater-iot/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://sia.planning.unc.edu/project/smartwater-iot/</guid>
+      <description>Managing urban water infrastructure with new data driven approaches and institutional change</description>
+    </item>
+    
+  </channel>
+</rss>

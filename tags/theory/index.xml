@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>theory on Nikhil Kaza</title>
-    <link>https://sia.planning.unc.edu/tags/theory/</link>
+    <link>/tags/theory/</link>
     <description>Recent content in theory on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0200</lastBuildDate>
     
-	<atom:link href="https://sia.planning.unc.edu/tags/theory/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/theory/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Justifications for Planning</title>
-      <link>https://sia.planning.unc.edu/project/planning-theory/</link>
+      <link>/project/planning-theory/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>https://sia.planning.unc.edu/project/planning-theory/</guid>
+      <guid>/project/planning-theory/</guid>
       <description>Why do public and private organisations plan? When? How are the plans used?</description>
     </item>
     
     <item>
       <title>Tyranny of the Median: A reflection on the participatory urban processes</title>
-      <link>https://sia.planning.unc.edu/publication/kaza-2006-oq/</link>
+      <link>/publication/kaza-2006-oq/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0100</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/kaza-2006-oq/</guid>
+      <guid>/publication/kaza-2006-oq/</guid>
       <description></description>
     </item>
     

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>K. P. Donaghy on Nikhil Kaza</title>
-    <link>https://sia.planning.unc.edu/authors/k.-p.-donaghy/</link>
+    <link>/authors/k.-p.-donaghy/</link>
     <description>Recent content in K. P. Donaghy on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Sun, 01 Jan 2006 00:00:00 +0100</lastBuildDate>
     
-	<atom:link href="https://sia.planning.unc.edu/authors/k.-p.-donaghy/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/authors/k.-p.-donaghy/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Value of Waiting: A primer on Option Value for Planners</title>
-      <link>https://sia.planning.unc.edu/publication/donaghy-value-2006/</link>
+      <link>/publication/donaghy-value-2006/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0100</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/donaghy-value-2006/</guid>
+      <guid>/publication/donaghy-value-2006/</guid>
       <description></description>
     </item>
     

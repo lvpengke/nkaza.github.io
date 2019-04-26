@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>accessibility on Nikhil Kaza</title>
-    <link>https://sia.planning.unc.edu/tags/accessibility/</link>
+    <link>/tags/accessibility/</link>
     <description>Recent content in accessibility on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0100</lastBuildDate>
     
-	<atom:link href="https://sia.planning.unc.edu/tags/accessibility/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/accessibility/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Location Efficiency &amp; Mortgage Risks for Low-Income Households</title>
-      <link>https://sia.planning.unc.edu/publication/kaza-hpd-2016/</link>
+      <link>/publication/kaza-hpd-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0100</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/kaza-hpd-2016/</guid>
+      <guid>/publication/kaza-hpd-2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Time Dependent Accessibility</title>
-      <link>https://sia.planning.unc.edu/publication/kaza-tda/</link>
+      <link>/publication/kaza-tda/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/kaza-tda/</guid>
+      <guid>/publication/kaza-tda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Built environment and the purchase of fruits and vegetables in United States households</title>
-      <link>https://sia.planning.unc.edu/publication/peng-kaza-fruits/</link>
+      <link>/publication/peng-kaza-fruits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/peng-kaza-fruits/</guid>
+      <guid>/publication/peng-kaza-fruits/</guid>
       <description></description>
     </item>
     

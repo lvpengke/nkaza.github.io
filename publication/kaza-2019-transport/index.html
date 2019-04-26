@@ -30,7 +30,7 @@
   <meta name="description" content="Transportation energy is a significant portion of the energy consumption of the US economy. While various policies such as changing the fuel mix and alternative fuels are proposed to make the system more efficient, the efficacy of land use policies such as changing the urban form and densification have been subject to considerable debate. In this paper, I use a rich dataset compiled from different sources to test the effectiveness of urban form on energy consumption in the transportation sector. I proxy the consumption with retail sales from gas stations for most of the conterminous United States at a county level. Using both demographic, economic and landscape characteristics of urban form I tease out the effect of different dimensions on energy consumption. I find that compact and contiguous urban form is modestly associated with lower energy consumption and is more important than demographic concentration in explaining the variance.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://sia.planning.unc.edu/publication/kaza-2019-transport/">
+  <link rel="alternate" hreflang="en-us" href="/publication/kaza-2019-transport/">
 
   
 
@@ -129,7 +129,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://sia.planning.unc.edu/publication/kaza-2019-transport/">
+  <link rel="canonical" href="/publication/kaza-2019-transport/">
 
   
   
@@ -144,9 +144,9 @@
   <meta property="twitter:creator" content="@nikhil_kaza">
   
   <meta property="og:site_name" content="Nikhil Kaza">
-  <meta property="og:url" content="https://sia.planning.unc.edu/publication/kaza-2019-transport/">
+  <meta property="og:url" content="/publication/kaza-2019-transport/">
   <meta property="og:title" content="Urban Form and Transportation Energy Consumption | Nikhil Kaza">
-  <meta property="og:description" content="Transportation energy is a significant portion of the energy consumption of the US economy. While various policies such as changing the fuel mix and alternative fuels are proposed to make the system more efficient, the efficacy of land use policies such as changing the urban form and densification have been subject to considerable debate. In this paper, I use a rich dataset compiled from different sources to test the effectiveness of urban form on energy consumption in the transportation sector. I proxy the consumption with retail sales from gas stations for most of the conterminous United States at a county level. Using both demographic, economic and landscape characteristics of urban form I tease out the effect of different dimensions on energy consumption. I find that compact and contiguous urban form is modestly associated with lower energy consumption and is more important than demographic concentration in explaining the variance."><meta property="og:image" content="https://sia.planning.unc.edu/img/icon-192.png">
+  <meta property="og:description" content="Transportation energy is a significant portion of the energy consumption of the US economy. While various policies such as changing the fuel mix and alternative fuels are proposed to make the system more efficient, the efficacy of land use policies such as changing the urban form and densification have been subject to considerable debate. In this paper, I use a rich dataset compiled from different sources to test the effectiveness of urban form on energy consumption in the transportation sector. I proxy the consumption with retail sales from gas stations for most of the conterminous United States at a county level. Using both demographic, economic and landscape characteristics of urban form I tease out the effect of different dimensions on energy consumption. I find that compact and contiguous urban form is modestly associated with lower energy consumption and is more important than demographic concentration in explaining the variance."><meta property="og:image" content="/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
   
@@ -202,7 +202,8 @@
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
         
       </div>
 
@@ -375,6 +376,10 @@
 
         
 
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
         
 
         
@@ -607,13 +612,13 @@
   
   <div class="post-nav-item">
     <div class="meta-nav">Next</div>
-    <a href="https://sia.planning.unc.edu/publication/lester-kaza-mc-adam-2018/" rel="next">Splintered Metropolitan Opportunity in the United States? Re-Examining the &#39;Mismatch&#39; between Emerging Employment Centers and Distressed Neighborhoods</a>
+    <a href="/publication/lester-kaza-mc-adam-2018/" rel="next">Splintered Metropolitan Opportunity in the United States? Re-Examining the &#39;Mismatch&#39; between Emerging Employment Centers and Distressed Neighborhoods</a>
   </div>
   
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="https://sia.planning.unc.edu/publication/kaza-vainforesight/" rel="prev">Vain Foresight: Against the Idea of Implementation in Planning</a>
+    <a href="/publication/kaza-vainforesight/" rel="prev">Vain Foresight: Against the Idea of Implementation in Planning</a>
   </div>
   
 </div>
@@ -717,18 +722,52 @@
     
 
     
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
 
     
     
 
     
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
 
     
     
-
     
     
     
@@ -736,12 +775,12 @@
     
     
     
+      
     
     
     
     
-    
-    <script src="/js/academic.min.d67d7e7d72a0d55e195559d9c7a3db66.js"></script>
+    <script src="/js/academic.min.d813ae958640746e240f434cafc95afb.js"></script>
 
   </body>
 </html>

@@ -30,7 +30,7 @@
   <meta name="description" content="The prevalence of energy resources on American Indian lands, the links between energy management and tribal sovereignty, and recent federal government incentives make tribal energy planning an interesting case study for community energy planning in the US. This paper studies the strategic energy planning efforts, energy resource development, and energy efficiency policies established by tribes within the continental US. The paper analyzes the results of a survey of various tribes and energy resource development and planning efforts and supplements the responses with publicly available information on resources, economics, and demographics. We find that incentives and advisory services from the federal government are key to developing the capacity of the tribes to pursue energy planning and energy resource development. These incentives largely avoid the misdeeds of past federal policy by promoting tribal control over energy planning and energy resource development efforts. Tribes with formal energy plans or visions are more likely to develop energy resources than tribes without them and are engaged in a more comprehensive and sustainable approach to energy resource development and energy efficiency.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://sia.planning.unc.edu/publication/brookshire-2013-bs/">
+  <link rel="alternate" hreflang="en-us" href="/publication/brookshire-2013-bs/">
 
   
 
@@ -129,7 +129,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://sia.planning.unc.edu/publication/brookshire-2013-bs/">
+  <link rel="canonical" href="/publication/brookshire-2013-bs/">
 
   
   
@@ -144,9 +144,9 @@
   <meta property="twitter:creator" content="@nikhil_kaza">
   
   <meta property="og:site_name" content="Nikhil Kaza">
-  <meta property="og:url" content="https://sia.planning.unc.edu/publication/brookshire-2013-bs/">
+  <meta property="og:url" content="/publication/brookshire-2013-bs/">
   <meta property="og:title" content="Planning for Seven Generations: Energy Planning of American Indian Tribes | Nikhil Kaza">
-  <meta property="og:description" content="The prevalence of energy resources on American Indian lands, the links between energy management and tribal sovereignty, and recent federal government incentives make tribal energy planning an interesting case study for community energy planning in the US. This paper studies the strategic energy planning efforts, energy resource development, and energy efficiency policies established by tribes within the continental US. The paper analyzes the results of a survey of various tribes and energy resource development and planning efforts and supplements the responses with publicly available information on resources, economics, and demographics. We find that incentives and advisory services from the federal government are key to developing the capacity of the tribes to pursue energy planning and energy resource development. These incentives largely avoid the misdeeds of past federal policy by promoting tribal control over energy planning and energy resource development efforts. Tribes with formal energy plans or visions are more likely to develop energy resources than tribes without them and are engaged in a more comprehensive and sustainable approach to energy resource development and energy efficiency."><meta property="og:image" content="https://sia.planning.unc.edu/img/icon-192.png">
+  <meta property="og:description" content="The prevalence of energy resources on American Indian lands, the links between energy management and tribal sovereignty, and recent federal government incentives make tribal energy planning an interesting case study for community energy planning in the US. This paper studies the strategic energy planning efforts, energy resource development, and energy efficiency policies established by tribes within the continental US. The paper analyzes the results of a survey of various tribes and energy resource development and planning efforts and supplements the responses with publicly available information on resources, economics, and demographics. We find that incentives and advisory services from the federal government are key to developing the capacity of the tribes to pursue energy planning and energy resource development. These incentives largely avoid the misdeeds of past federal policy by promoting tribal control over energy planning and energy resource development efforts. Tribes with formal energy plans or visions are more likely to develop energy resources than tribes without them and are engaged in a more comprehensive and sustainable approach to energy resource development and energy efficiency."><meta property="og:image" content="/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2013-01-01T00:00:00&#43;01:00">
@@ -203,7 +203,8 @@
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
         
       </div>
 
@@ -376,6 +377,10 @@
 
         
 
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
         
 
         
@@ -637,13 +642,13 @@
   
   <div class="post-nav-item">
     <div class="meta-nav">Next</div>
-    <a href="https://sia.planning.unc.edu/publication/lester-wp-jo/" rel="next">Making Room for Manufacturing: Understanding Industrial Land Conversion in Cities</a>
+    <a href="/publication/lester-wp-jo/" rel="next">Making Room for Manufacturing: Understanding Industrial Land Conversion in Cities</a>
   </div>
   
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="https://sia.planning.unc.edu/publication/kaza-changing-2013/" rel="prev">The changing urban landscape of continental United States</a>
+    <a href="/publication/kaza-changing-2013/" rel="prev">The changing urban landscape of continental United States</a>
   </div>
   
 </div>
@@ -747,18 +752,52 @@
     
 
     
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
 
     
     
 
     
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
 
     
     
-
     
     
     
@@ -766,12 +805,12 @@
     
     
     
+      
     
     
     
     
-    
-    <script src="/js/academic.min.d67d7e7d72a0d55e195559d9c7a3db66.js"></script>
+    <script src="/js/academic.min.d813ae958640746e240f434cafc95afb.js"></script>
 
   </body>
 </html>

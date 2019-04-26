@@ -30,7 +30,7 @@
   <meta name="description" content="Associate Professor">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://sia.planning.unc.edu/authors/">
+  <link rel="alternate" hreflang="en-us" href="/authors/">
 
   
 
@@ -132,7 +132,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://sia.planning.unc.edu/authors/">
+  <link rel="canonical" href="/authors/">
 
   
   
@@ -147,9 +147,9 @@
   <meta property="twitter:creator" content="@nikhil_kaza">
   
   <meta property="og:site_name" content="Nikhil Kaza">
-  <meta property="og:url" content="https://sia.planning.unc.edu/authors/">
+  <meta property="og:url" content="/authors/">
   <meta property="og:title" content="Authors | Nikhil Kaza">
-  <meta property="og:description" content="Associate Professor"><meta property="og:image" content="https://sia.planning.unc.edu/img/icon-192.png">
+  <meta property="og:description" content="Associate Professor"><meta property="og:image" content="/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="og:updated_time" content="2019-04-12T12:00:00&#43;02:00">
@@ -204,7 +204,8 @@
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
         
       </div>
 
@@ -378,6 +379,10 @@
         
 
         
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
 
         
 
@@ -436,7 +441,7 @@
       
         
       
-    <li><a href="https://sia.planning.unc.edu/authors/s.-bhamidi/">S. Bhamidi</a></li>
+    <li><a href="/authors/s.-bhamidi/">S. Bhamidi</a></li>
     
       
       
@@ -444,7 +449,7 @@
       
         
       
-    <li><a href="https://sia.planning.unc.edu/authors/s.-murphy/">S. Murphy</a></li>
+    <li><a href="/authors/s.-murphy/">S. Murphy</a></li>
     
       
       
@@ -452,7 +457,7 @@
       
         
       
-    <li><a href="https://sia.planning.unc.edu/authors/t.-mcadam/">T. McAdam</a></li>
+    <li><a href="/authors/t.-mcadam/">T. McAdam</a></li>
     
       
       
@@ -461,7 +466,7 @@
         
         
       
-    <li><a href="https://sia.planning.unc.edu/authors/admin/">Nikhil Kaza</a></li>
+    <li><a href="/authors/admin/">Nikhil Kaza</a></li>
     
   </ul>
 
@@ -573,18 +578,52 @@
     
 
     
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
 
     
     
 
     
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
 
     
     
-
     
     
     
@@ -592,12 +631,12 @@
     
     
     
+      
     
     
     
     
-    
-    <script src="/js/academic.min.d67d7e7d72a0d55e195559d9c7a3db66.js"></script>
+    <script src="/js/academic.min.d813ae958640746e240f434cafc95afb.js"></script>
 
   </body>
 </html>

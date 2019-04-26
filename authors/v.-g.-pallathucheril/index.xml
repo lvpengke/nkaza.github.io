@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>V. G. Pallathucheril on Nikhil Kaza</title>
-    <link>https://sia.planning.unc.edu/authors/v.-g.-pallathucheril/</link>
+    <link>/authors/v.-g.-pallathucheril/</link>
     <description>Recent content in V. G. Pallathucheril on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Sat, 01 Jan 2005 00:00:00 +0100</lastBuildDate>
     
-	<atom:link href="https://sia.planning.unc.edu/authors/v.-g.-pallathucheril/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/authors/v.-g.-pallathucheril/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>A Data Model to Incorporate Plans and Regulations in Urban Simulation Models</title>
-      <link>https://sia.planning.unc.edu/publication/hopkins-data-2005/</link>
+      <link>/publication/hopkins-data-2005/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0100</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/hopkins-data-2005/</guid>
+      <guid>/publication/hopkins-data-2005/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Representing Urban Development Plans and Regulations as Data: A Planning Data Model</title>
-      <link>https://sia.planning.unc.edu/publication/hopkins-representing-2005/</link>
+      <link>/publication/hopkins-representing-2005/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0100</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/hopkins-representing-2005/</guid>
+      <guid>/publication/hopkins-representing-2005/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Planning Markup Language: Representing the Meanings of Plans and Regulations</title>
-      <link>https://sia.planning.unc.edu/publication/hopkins-planning-2003-1/</link>
+      <link>/publication/hopkins-planning-2003-1/</link>
       <pubDate>Wed, 01 Jan 2003 00:00:00 +0100</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/hopkins-planning-2003-1/</guid>
+      <guid>/publication/hopkins-planning-2003-1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shared Data Model for Describing Plans and Regulations as Inputs to Simulation Models of Urban Development</title>
-      <link>https://sia.planning.unc.edu/publication/hopkins-shared-2003-1/</link>
+      <link>/publication/hopkins-shared-2003-1/</link>
       <pubDate>Wed, 01 Jan 2003 00:00:00 +0100</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/hopkins-shared-2003-1/</guid>
+      <guid>/publication/hopkins-shared-2003-1/</guid>
       <description></description>
     </item>
     

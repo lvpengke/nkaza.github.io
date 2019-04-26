@@ -30,7 +30,7 @@
   <meta name="description" content="Why are many plans not implemented? Common explanations for this question are planners have little power, or they failed to account for political or environmental uncertainty, or they failed to include to enough voices during the planning process. Weaving different strands of implementation and strategic planning literature, I provide an alternative account by challenging the premise that plans realise their potential only when they are implemented. I argue that theoretical frameworks that we base our understanding of plans and their purposes do not allow us to explain the ways in which plans are used. Monitoring implementation of plans, presupposes that we know what plans are there to monitor. It privileges published plans and ignores all the other plans that guide urban development.  By jettisoning implementation as a key criterion by which to evaluate the effectiveness of plans, we can begin to focus on myriad of ways in which plans are used by plan makers as well as others. A better question to ask is, ``How are these plans used and when are they useful?&#39;&#39; In asking those questions, we can create different evaluative frameworks for different types of plans. Some unimplementable plans are worth making.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://sia.planning.unc.edu/publication/kaza-vainforesight/">
+  <link rel="alternate" hreflang="en-us" href="/publication/kaza-vainforesight/">
 
   
 
@@ -129,7 +129,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://sia.planning.unc.edu/publication/kaza-vainforesight/">
+  <link rel="canonical" href="/publication/kaza-vainforesight/">
 
   
   
@@ -144,9 +144,9 @@
   <meta property="twitter:creator" content="@nikhil_kaza">
   
   <meta property="og:site_name" content="Nikhil Kaza">
-  <meta property="og:url" content="https://sia.planning.unc.edu/publication/kaza-vainforesight/">
+  <meta property="og:url" content="/publication/kaza-vainforesight/">
   <meta property="og:title" content="Vain Foresight: Against the Idea of Implementation in Planning | Nikhil Kaza">
-  <meta property="og:description" content="Why are many plans not implemented? Common explanations for this question are planners have little power, or they failed to account for political or environmental uncertainty, or they failed to include to enough voices during the planning process. Weaving different strands of implementation and strategic planning literature, I provide an alternative account by challenging the premise that plans realise their potential only when they are implemented. I argue that theoretical frameworks that we base our understanding of plans and their purposes do not allow us to explain the ways in which plans are used. Monitoring implementation of plans, presupposes that we know what plans are there to monitor. It privileges published plans and ignores all the other plans that guide urban development.  By jettisoning implementation as a key criterion by which to evaluate the effectiveness of plans, we can begin to focus on myriad of ways in which plans are used by plan makers as well as others. A better question to ask is, ``How are these plans used and when are they useful?&#39;&#39; In asking those questions, we can create different evaluative frameworks for different types of plans. Some unimplementable plans are worth making."><meta property="og:image" content="https://sia.planning.unc.edu/img/icon-192.png">
+  <meta property="og:description" content="Why are many plans not implemented? Common explanations for this question are planners have little power, or they failed to account for political or environmental uncertainty, or they failed to include to enough voices during the planning process. Weaving different strands of implementation and strategic planning literature, I provide an alternative account by challenging the premise that plans realise their potential only when they are implemented. I argue that theoretical frameworks that we base our understanding of plans and their purposes do not allow us to explain the ways in which plans are used. Monitoring implementation of plans, presupposes that we know what plans are there to monitor. It privileges published plans and ignores all the other plans that guide urban development.  By jettisoning implementation as a key criterion by which to evaluate the effectiveness of plans, we can begin to focus on myriad of ways in which plans are used by plan makers as well as others. A better question to ask is, ``How are these plans used and when are they useful?&#39;&#39; In asking those questions, we can create different evaluative frameworks for different types of plans. Some unimplementable plans are worth making."><meta property="og:image" content="/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
   
@@ -202,7 +202,8 @@
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
         
       </div>
 
@@ -375,6 +376,10 @@
 
         
 
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
         
 
         
@@ -634,13 +639,13 @@
   
   <div class="post-nav-item">
     <div class="meta-nav">Next</div>
-    <a href="https://sia.planning.unc.edu/publication/kaza-2019-transport/" rel="next">Urban Form and Transportation Energy Consumption</a>
+    <a href="/publication/kaza-2019-transport/" rel="next">Urban Form and Transportation Energy Consumption</a>
   </div>
   
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="https://sia.planning.unc.edu/publication/kazaetal-2018-whoseplan/" rel="prev">Whose plan is it anyway? Energy Planning by American Indian Tribes in the United States</a>
+    <a href="/publication/kazaetal-2018-whoseplan/" rel="prev">Whose plan is it anyway? Energy Planning by American Indian Tribes in the United States</a>
   </div>
   
 </div>
@@ -744,18 +749,52 @@
     
 
     
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
 
     
     
 
     
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
 
     
     
-
     
     
     
@@ -763,12 +802,12 @@
     
     
     
+      
     
     
     
     
-    
-    <script src="/js/academic.min.d67d7e7d72a0d55e195559d9c7a3db66.js"></script>
+    <script src="/js/academic.min.d813ae958640746e240f434cafc95afb.js"></script>
 
   </body>
 </html>

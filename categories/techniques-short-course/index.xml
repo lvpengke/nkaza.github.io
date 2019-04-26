@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>techniques-short-course on Nikhil Kaza</title>
-    <link>https://sia.planning.unc.edu/categories/techniques-short-course/</link>
+    <link>/categories/techniques-short-course/</link>
     <description>Recent content in techniques-short-course on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Thu, 26 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://sia.planning.unc.edu/categories/techniques-short-course/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/techniques-short-course/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Introduction to R &amp; Exploratory Data Visualisation</title>
-      <link>https://sia.planning.unc.edu/post/2018-07-26-introduction-to-r-exploratory-data-visualisation/introduction-to-r-exploratory-data-visualisation/</link>
+      <link>/post/2018-07-26-introduction-to-r-exploratory-data-visualisation/introduction-to-r-exploratory-data-visualisation/</link>
       <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/post/2018-07-26-introduction-to-r-exploratory-data-visualisation/introduction-to-r-exploratory-data-visualisation/</guid>
+      <guid>/post/2018-07-26-introduction-to-r-exploratory-data-visualisation/introduction-to-r-exploratory-data-visualisation/</guid>
       <description>Introduction to R and some exploratory graphics using air pollution data in the US.</description>
     </item>
     
     <item>
       <title>Identifying Clusters of Events</title>
-      <link>https://sia.planning.unc.edu/post/2018-07-09-point-pattern-analysis-and-cluster-detection/cluster-detection-in-point-data/</link>
+      <link>/post/2018-07-09-point-pattern-analysis-and-cluster-detection/cluster-detection-in-point-data/</link>
       <pubDate>Mon, 09 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/post/2018-07-09-point-pattern-analysis-and-cluster-detection/cluster-detection-in-point-data/</guid>
+      <guid>/post/2018-07-09-point-pattern-analysis-and-cluster-detection/cluster-detection-in-point-data/</guid>
       <description>Spatial cluster detection.</description>
     </item>
     
     <item>
       <title>Urban Morphology &amp; Landscape Metrics</title>
-      <link>https://sia.planning.unc.edu/post/2018-07-01-urban-morphology-landscape-metrics/urban-morphology-landscape-metrics/</link>
+      <link>/post/2018-07-01-urban-morphology-landscape-metrics/urban-morphology-landscape-metrics/</link>
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/post/2018-07-01-urban-morphology-landscape-metrics/urban-morphology-landscape-metrics/</guid>
+      <guid>/post/2018-07-01-urban-morphology-landscape-metrics/urban-morphology-landscape-metrics/</guid>
       <description>Creating urban landscape metrics</description>
     </item>
     

@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>4 on Nikhil Kaza</title>
-    <link>https://sia.planning.unc.edu/publication_types/4/</link>
+    <link>/publication_types/4/</link>
     <description>Recent content in 4 on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Tue, 01 Jan 2008 00:00:00 +0100</lastBuildDate>
     
-	<atom:link href="https://sia.planning.unc.edu/publication_types/4/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/publication_types/4/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Reasoning with plans: Inference of semantic relationships among plans about urban development</title>
-      <link>https://sia.planning.unc.edu/publication/kaza-reasoning-2008/</link>
+      <link>/publication/kaza-reasoning-2008/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 +0100</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/kaza-reasoning-2008/</guid>
+      <guid>/publication/kaza-reasoning-2008/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Towards a Data Model for Urban Planning: Ontological Constructs for Representing Regulations and Guidelines with Geography</title>
-      <link>https://sia.planning.unc.edu/publication/kaza-towardsdata-2004/</link>
+      <link>/publication/kaza-towardsdata-2004/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0100</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/kaza-towardsdata-2004/</guid>
+      <guid>/publication/kaza-towardsdata-2004/</guid>
       <description></description>
     </item>
     

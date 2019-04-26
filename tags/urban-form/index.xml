@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>urban-form on Nikhil Kaza</title>
-    <link>https://sia.planning.unc.edu/tags/urban-form/</link>
+    <link>/tags/urban-form/</link>
     <description>Recent content in urban-form on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Fri, 12 Apr 2019 12:00:00 +0200</lastBuildDate>
     
-	<atom:link href="https://sia.planning.unc.edu/tags/urban-form/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/urban-form/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Urban Form and Transportation Energy Consumption</title>
-      <link>https://sia.planning.unc.edu/talk/transport-energy/</link>
+      <link>/talk/transport-energy/</link>
       <pubDate>Fri, 12 Apr 2019 12:00:00 +0200</pubDate>
       
-      <guid>https://sia.planning.unc.edu/talk/transport-energy/</guid>
+      <guid>/talk/transport-energy/</guid>
       <description>Transportation energy consumption in the United States and its relation to urban form</description>
     </item>
     
     <item>
       <title>Peak Oil, Urban Form and Public Health: Exploring the Connections</title>
-      <link>https://sia.planning.unc.edu/publication/kaza-2011-dq/</link>
+      <link>/publication/kaza-2011-dq/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0100</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/kaza-2011-dq/</guid>
+      <guid>/publication/kaza-2011-dq/</guid>
       <description></description>
     </item>
     

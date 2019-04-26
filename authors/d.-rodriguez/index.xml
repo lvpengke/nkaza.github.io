@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>D. Rodriguez on Nikhil Kaza</title>
-    <link>https://sia.planning.unc.edu/authors/d.-rodriguez/</link>
+    <link>/authors/d.-rodriguez/</link>
     <description>Recent content in D. Rodriguez on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Tue, 01 Jan 2013 00:00:00 +0100</lastBuildDate>
     
-	<atom:link href="https://sia.planning.unc.edu/authors/d.-rodriguez/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/authors/d.-rodriguez/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The spatio-temporal clustering of green buildings in the US</title>
-      <link>https://sia.planning.unc.edu/publication/kaza-2013-uq/</link>
+      <link>/publication/kaza-2013-uq/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0100</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/kaza-2013-uq/</guid>
+      <guid>/publication/kaza-2013-uq/</guid>
       <description></description>
     </item>
     

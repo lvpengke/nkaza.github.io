@@ -14,6 +14,12 @@
   </url>
   
   <url>
+    <loc>https://sia.planning.unc.edu/tags/landscape-metrics/</loc>
+    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://sia.planning.unc.edu/</loc>
     <lastmod>2019-04-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -37,19 +43,13 @@
   </url>
   
   <url>
-    <loc>https://sia.planning.unc.edu/tags/landscape-metrics/</loc>
+    <loc>https://sia.planning.unc.edu/tags/urban-patterns/</loc>
     <lastmod>2019-04-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://sia.planning.unc.edu/tags/urban-change/</loc>
-    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sia.planning.unc.edu/tags/urban-patterns/</loc>
     <lastmod>2019-04-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -267,6 +267,11 @@
     <loc>https://sia.planning.unc.edu/tags/blogdown/</loc>
     <lastmod>2018-06-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://sia.planning.unc.edu/privacy/</loc>
+    <lastmod>2018-06-28T00:00:00+02:00</lastmod>
   </url>
   
   <url>

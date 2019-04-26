@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>urban-morphology, on Nikhil Kaza</title>
-    <link>/tags/urban-morphology/</link>
+    <link>https://sia.planning.unc.edu/tags/urban-morphology/</link>
     <description>Recent content in urban-morphology, on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/urban-morphology/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sia.planning.unc.edu/tags/urban-morphology/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Urban Morphology &amp; Landscape Metrics</title>
-      <link>/post/2018-07-01-urban-morphology-landscape-metrics/urban-morphology-landscape-metrics/</link>
+      <link>https://sia.planning.unc.edu/post/2018-07-01-urban-morphology-landscape-metrics/urban-morphology-landscape-metrics/</link>
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/2018-07-01-urban-morphology-landscape-metrics/urban-morphology-landscape-metrics/</guid>
+      <guid>https://sia.planning.unc.edu/post/2018-07-01-urban-morphology-landscape-metrics/urban-morphology-landscape-metrics/</guid>
       <description>Creating urban landscape metrics</description>
     </item>
     
     <item>
       <title>Urban Change and its Impacts</title>
-      <link>/project/urban-change/</link>
+      <link>https://sia.planning.unc.edu/project/urban-change/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>/project/urban-change/</guid>
+      <guid>https://sia.planning.unc.edu/project/urban-change/</guid>
       <description>Novel measures of urban demographic, economic and morphological indicators</description>
     </item>
     
     <item>
       <title>Urban Form and Air Quality</title>
-      <link>/publication/kaza-wp-yo/</link>
+      <link>https://sia.planning.unc.edu/publication/kaza-wp-yo/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
       
-      <guid>/publication/kaza-wp-yo/</guid>
+      <guid>https://sia.planning.unc.edu/publication/kaza-wp-yo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Understanding the spectrum of residential energy consumption: A quantile regression approach</title>
-      <link>/publication/kaza-2010-lr/</link>
+      <link>https://sia.planning.unc.edu/publication/kaza-2010-lr/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0100</pubDate>
       
-      <guid>/publication/kaza-2010-lr/</guid>
+      <guid>https://sia.planning.unc.edu/publication/kaza-2010-lr/</guid>
       <description></description>
     </item>
     

@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>equity on Nikhil Kaza</title>
-    <link>/tags/equity/</link>
+    <link>https://sia.planning.unc.edu/tags/equity/</link>
     <description>Recent content in equity on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0200</lastBuildDate>
     
-	<atom:link href="/tags/equity/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sia.planning.unc.edu/tags/equity/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Irregular/Informal Settlement Detection</title>
-      <link>/project/irregular-settlements/</link>
+      <link>https://sia.planning.unc.edu/project/irregular-settlements/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>/project/irregular-settlements/</guid>
+      <guid>https://sia.planning.unc.edu/project/irregular-settlements/</guid>
       <description>Machine learning techniques to identify irregular settlements</description>
     </item>
     
     <item>
       <title>Local Energy Policy &amp; Planning</title>
-      <link>/project/energy-policy/</link>
+      <link>https://sia.planning.unc.edu/project/energy-policy/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>/project/energy-policy/</guid>
+      <guid>https://sia.planning.unc.edu/project/energy-policy/</guid>
       <description>The interactions between land use, transportation, environment and energy systems</description>
     </item>
     
     <item>
       <title>Time Dependent Accessibility</title>
-      <link>/publication/kaza-tda/</link>
+      <link>https://sia.planning.unc.edu/publication/kaza-tda/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
       
-      <guid>/publication/kaza-tda/</guid>
+      <guid>https://sia.planning.unc.edu/publication/kaza-tda/</guid>
       <description></description>
     </item>
     

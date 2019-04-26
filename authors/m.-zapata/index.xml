@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>M. Zapata on Nikhil Kaza</title>
-    <link>/authors/m.-zapata/</link>
+    <link>https://sia.planning.unc.edu/authors/m.-zapata/</link>
     <description>Recent content in M. Zapata on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0100</lastBuildDate>
     
-	<atom:link href="/authors/m.-zapata/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sia.planning.unc.edu/authors/m.-zapata/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Radical Uncertainty: Scenario planning for futures</title>
-      <link>/publication/zapata-dz/</link>
+      <link>https://sia.planning.unc.edu/publication/zapata-dz/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
       
-      <guid>/publication/zapata-dz/</guid>
+      <guid>https://sia.planning.unc.edu/publication/zapata-dz/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Scenario Planning for Uncertain Futures: Incorporating Multiple Futures and Multiple Publics</title>
-      <link>/publication/zapata-ay/</link>
+      <link>https://sia.planning.unc.edu/publication/zapata-ay/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0100</pubDate>
       
-      <guid>/publication/zapata-ay/</guid>
+      <guid>https://sia.planning.unc.edu/publication/zapata-ay/</guid>
       <description></description>
     </item>
     

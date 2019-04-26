@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teachings on Nikhil Kaza</title>
-    <link>/teaching/</link>
+    <link>https://sia.planning.unc.edu/teaching/</link>
     <description>Recent content in Teachings on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Thu, 26 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/teaching/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sia.planning.unc.edu/teaching/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Techniques &amp; Politics of New Urban Analytics</title>
-      <link>/teaching/techniques-politics-short-course/</link>
+      <link>https://sia.planning.unc.edu/teaching/techniques-politics-short-course/</link>
       <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/techniques-politics-short-course/</guid>
+      <guid>https://sia.planning.unc.edu/teaching/techniques-politics-short-course/</guid>
       <description>A short course on urban analytics in R. And a critical look at urban analytics.</description>
     </item>
     
     <item>
       <title>HW 1: Due Day 1 11:59 PM</title>
-      <link>/teaching/techniques_hw/hw1/</link>
+      <link>https://sia.planning.unc.edu/teaching/techniques_hw/hw1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/techniques_hw/hw1/</guid>
+      <guid>https://sia.planning.unc.edu/teaching/techniques_hw/hw1/</guid>
       <description>Exploratory Data Analysis Use Canvas to submit the HW. Both RMarkdown and the knitted html file is required for full credit.
 Task 1 Instead of O\(_3\) as used in the tutorial, perform the analysis for NO\(_2\) for 2017 data. For this you will need to download the data from the EPA website and clean it. You need to tell a story about this pollutant and its distribution (in various senses).</description>
     </item>
     
     <item>
       <title>HW 2: Due Day 2 11:59 PM</title>
-      <link>/teaching/techniques_hw/hw2/</link>
+      <link>https://sia.planning.unc.edu/teaching/techniques_hw/hw2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/techniques_hw/hw2/</guid>
+      <guid>https://sia.planning.unc.edu/teaching/techniques_hw/hw2/</guid>
       <description>Raster AnalysisUse Canvas to submit the HW. Both RMarkdown and the knitted html file is required for full credit.
 TaskThe National Oceanic and Atmospheric Administration’s Coastal Change Analysis program produces land cover on the coast of the US. Download the 1996,2001,2006 and 2010 landcover data for the state of North Carolina from here. Answer the following questions and write a report summarising the findings.
 Download the county vector files using tigris or the Census website.</description>
@@ -44,10 +44,10 @@ TaskThe National Oceanic and Atmospheric Administration’s Coastal Change Anal
     
     <item>
       <title>HW 3: Due Day 3 11:59 PM</title>
-      <link>/teaching/techniques_hw/hw3/</link>
+      <link>https://sia.planning.unc.edu/teaching/techniques_hw/hw3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/techniques_hw/hw3/</guid>
+      <guid>https://sia.planning.unc.edu/teaching/techniques_hw/hw3/</guid>
       <description> Machine Learning Use Canvas to submit the HW. Both RMarkdown and the knitted html file is required for full credit.
 Task Improve the classification performance on the same dataset you used in the lab and write up a report on the significance of your feature engineering, model selection choices.
   </description>
@@ -55,10 +55,10 @@ Task Improve the classification performance on the same dataset you used in the 
     
     <item>
       <title>HW 4: Due Day 4 11:59 PM</title>
-      <link>/teaching/techniques_hw/hw4/</link>
+      <link>https://sia.planning.unc.edu/teaching/techniques_hw/hw4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/techniques_hw/hw4/</guid>
+      <guid>https://sia.planning.unc.edu/teaching/techniques_hw/hw4/</guid>
       <description>Scraping web for dataUse Canvas to submit the HW. Both RMarkdown and the knitted html file is required for full credit.
 TaskMake the script from the lab more robust to errors and get a listing of all day care centers, hospitals, elder care centers, health clinics etc. in Wuhan. For this you may need to chunk the city into parts and search within each chunk.
 For each transit stop in Wuhan (Bus and Metro) find the shortest distance/travel time to each of these points of interests.</description>

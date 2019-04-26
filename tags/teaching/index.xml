@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>teaching on Nikhil Kaza</title>
-    <link>/tags/teaching/</link>
+    <link>https://sia.planning.unc.edu/tags/teaching/</link>
     <description>Recent content in teaching on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Thu, 26 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sia.planning.unc.edu/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Techniques &amp; Politics of New Urban Analytics</title>
-      <link>/teaching/techniques-politics-short-course/</link>
+      <link>https://sia.planning.unc.edu/teaching/techniques-politics-short-course/</link>
       <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/techniques-politics-short-course/</guid>
+      <guid>https://sia.planning.unc.edu/teaching/techniques-politics-short-course/</guid>
       <description>A short course on urban analytics in R. And a critical look at urban analytics.</description>
     </item>
     

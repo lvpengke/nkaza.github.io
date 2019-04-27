@@ -13,20 +13,11 @@
     
     
     <item>
-      <title>Landscape metrics</title>
+      <title>landscape-metrics</title>
       <link>https://sia.planning.unc.edu/tags/landscape-metrics/</link>
       <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://sia.planning.unc.edu/tags/landscape-metrics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>urban patterns</title>
-      <link>https://sia.planning.unc.edu/tags/urban-patterns/</link>
-      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://sia.planning.unc.edu/tags/urban-patterns/</guid>
       <description></description>
     </item>
     
@@ -36,6 +27,15 @@
       <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://sia.planning.unc.edu/tags/urban-change/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>urban-patterns</title>
+      <link>https://sia.planning.unc.edu/tags/urban-patterns/</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sia.planning.unc.edu/tags/urban-patterns/</guid>
       <description></description>
     </item>
     

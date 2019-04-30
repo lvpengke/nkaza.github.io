@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
-    <lastBuildDate>Fri, 12 Apr 2019 12:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 12 Apr 2019 12:00:00 +0530</lastBuildDate>
     
 	<atom:link href="https://sia.planning.unc.edu/tags/energy-policy/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Urban Form and Transportation Energy Consumption</title>
       <link>https://sia.planning.unc.edu/talk/transport-energy/</link>
-      <pubDate>Fri, 12 Apr 2019 12:00:00 +0200</pubDate>
+      <pubDate>Fri, 12 Apr 2019 12:00:00 +0530</pubDate>
       
       <guid>https://sia.planning.unc.edu/talk/transport-energy/</guid>
       <description>Transportation energy consumption in the United States and its relation to urban form</description>
@@ -33,7 +33,7 @@
     <item>
       <title>Urban form and household electricity consumption: A multilevel study</title>
       <link>https://sia.planning.unc.edu/publication/li-2017/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0530</pubDate>
       
       <guid>https://sia.planning.unc.edu/publication/li-2017/</guid>
       <description></description>
@@ -42,7 +42,7 @@
     <item>
       <title>Local Energy Policy &amp; Planning</title>
       <link>https://sia.planning.unc.edu/project/energy-policy/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
       <guid>https://sia.planning.unc.edu/project/energy-policy/</guid>
       <description>The interactions between land use, transportation, environment and energy systems</description>
@@ -51,7 +51,7 @@
     <item>
       <title>Location Efficiency &amp; Mortgage Risks for Low-Income Households</title>
       <link>https://sia.planning.unc.edu/publication/kaza-hpd-2016/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0100</pubDate>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0530</pubDate>
       
       <guid>https://sia.planning.unc.edu/publication/kaza-hpd-2016/</guid>
       <description></description>
@@ -60,7 +60,7 @@
     <item>
       <title>Home Energy Efficiency and Mortgage Risks</title>
       <link>https://sia.planning.unc.edu/publication/kaza-2013-tg/</link>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0530</pubDate>
       
       <guid>https://sia.planning.unc.edu/publication/kaza-2013-tg/</guid>
       <description></description>
@@ -69,7 +69,7 @@
     <item>
       <title>The Land Use Energy Connection</title>
       <link>https://sia.planning.unc.edu/publication/kaza-2013-fv/</link>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0530</pubDate>
       
       <guid>https://sia.planning.unc.edu/publication/kaza-2013-fv/</guid>
       <description></description>
@@ -78,7 +78,7 @@
     <item>
       <title>Planning for Seven Generations: Energy Planning of American Indian Tribes</title>
       <link>https://sia.planning.unc.edu/publication/brookshire-2013-bs/</link>
-      <pubDate>Tue, 01 Jan 2013 00:00:00 +0100</pubDate>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0530</pubDate>
       
       <guid>https://sia.planning.unc.edu/publication/brookshire-2013-bs/</guid>
       <description></description>
@@ -87,7 +87,7 @@
     <item>
       <title>The spatio-temporal clustering of green buildings in the US</title>
       <link>https://sia.planning.unc.edu/publication/kaza-2013-uq/</link>
-      <pubDate>Tue, 01 Jan 2013 00:00:00 +0100</pubDate>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0530</pubDate>
       
       <guid>https://sia.planning.unc.edu/publication/kaza-2013-uq/</guid>
       <description></description>
@@ -96,7 +96,7 @@
     <item>
       <title>Peak Oil, Urban Form and Public Health: Exploring the Connections</title>
       <link>https://sia.planning.unc.edu/publication/kaza-2011-dq/</link>
-      <pubDate>Sat, 01 Jan 2011 00:00:00 +0100</pubDate>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0530</pubDate>
       
       <guid>https://sia.planning.unc.edu/publication/kaza-2011-dq/</guid>
       <description></description>
@@ -105,7 +105,7 @@
     <item>
       <title>Robust Plans and Contingent Plans: Scenario Planning for an Uncertain World</title>
       <link>https://sia.planning.unc.edu/publication/chakraborty-2011-lr/</link>
-      <pubDate>Sat, 01 Jan 2011 00:00:00 +0100</pubDate>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0530</pubDate>
       
       <guid>https://sia.planning.unc.edu/publication/chakraborty-2011-lr/</guid>
       <description></description>
@@ -114,7 +114,7 @@
     <item>
       <title>Understanding the spectrum of residential energy consumption: A quantile regression approach</title>
       <link>https://sia.planning.unc.edu/publication/kaza-2010-lr/</link>
-      <pubDate>Fri, 01 Jan 2010 00:00:00 +0100</pubDate>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0530</pubDate>
       
       <guid>https://sia.planning.unc.edu/publication/kaza-2010-lr/</guid>
       <description></description>

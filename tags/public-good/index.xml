@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>public-good on Nikhil Kaza</title>
-    <link>/tags/public-good/</link>
+    <link>https://sia.planning.unc.edu/tags/public-good/</link>
     <description>Recent content in public-good on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0530</lastBuildDate>
     
-	<atom:link href="/tags/public-good/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sia.planning.unc.edu/tags/public-good/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Justifications for Planning</title>
-      <link>/project/planning-theory/</link>
+      <link>https://sia.planning.unc.edu/project/planning-theory/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>/project/planning-theory/</guid>
+      <guid>https://sia.planning.unc.edu/project/planning-theory/</guid>
       <description>Why do public and private organisations plan? When? How are the plans used?</description>
     </item>
     

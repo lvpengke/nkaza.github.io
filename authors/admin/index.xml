@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>admin on Nikhil Kaza</title>
-    <link>/authors/admin/</link>
+    <link>https://sia.planning.unc.edu/authors/admin/</link>
     <description>Recent content in admin on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     
-	<atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sia.planning.unc.edu/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>/author/admin/</link>
+      <link>https://sia.planning.unc.edu/author/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/author/admin/</guid>
+      <guid>https://sia.planning.unc.edu/author/admin/</guid>
       <description>I work at the intersection of urbanization patterns, local energy policy, and equity. In my research, I seek to understand the motivations, intentions and plans of multiple actors endowed with limited capabilities, imperfect foresight and distributed authority, in urban settings. Lately, I have been studying these issues in the context of local energy planning. I routinely use high cadence, large geospatial and temporal datasets and novel quantitative methods in my research.</description>
     </item>
     

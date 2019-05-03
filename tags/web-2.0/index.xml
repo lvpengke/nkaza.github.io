@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web 2.0 on Nikhil Kaza</title>
-    <link>/tags/web-2.0/</link>
+    <link>https://sia.planning.unc.edu/tags/web-2.0/</link>
     <description>Recent content in Web 2.0 on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Fri, 21 Sep 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/web-2.0/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sia.planning.unc.edu/tags/web-2.0/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Using Google API for Planning</title>
-      <link>/post/2018-09-21-using-google-api-for-planning/using-google-api-for-planning/</link>
+      <link>https://sia.planning.unc.edu/post/2018-09-21-using-google-api-for-planning/using-google-api-for-planning/</link>
       <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/2018-09-21-using-google-api-for-planning/using-google-api-for-planning/</guid>
+      <guid>https://sia.planning.unc.edu/post/2018-09-21-using-google-api-for-planning/using-google-api-for-planning/</guid>
       <description>Finding density of places, service deserts using Google and OSRM.</description>
     </item>
     

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>J. McCarty on Nikhil Kaza</title>
-    <link>/authors/j.-mccarty/</link>
+    <link>https://sia.planning.unc.edu/authors/j.-mccarty/</link>
     <description>Recent content in J. McCarty on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0530</lastBuildDate>
     
-	<atom:link href="/authors/j.-mccarty/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sia.planning.unc.edu/authors/j.-mccarty/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Urban Form and Air Quality</title>
-      <link>/publication/kaza-wp-yo/</link>
+      <link>https://sia.planning.unc.edu/publication/kaza-wp-yo/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0530</pubDate>
       
-      <guid>/publication/kaza-wp-yo/</guid>
+      <guid>https://sia.planning.unc.edu/publication/kaza-wp-yo/</guid>
       <description></description>
     </item>
     

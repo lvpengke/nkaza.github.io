@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>American Indian tribes on Nikhil Kaza</title>
-    <link>/tags/american-indian-tribes/</link>
+    <link>https://sia.planning.unc.edu/tags/american-indian-tribes/</link>
     <description>Recent content in American Indian tribes on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0530</lastBuildDate>
     
-	<atom:link href="/tags/american-indian-tribes/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sia.planning.unc.edu/tags/american-indian-tribes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Local Energy Policy &amp; Planning</title>
-      <link>/project/energy-policy/</link>
+      <link>https://sia.planning.unc.edu/project/energy-policy/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>/project/energy-policy/</guid>
+      <guid>https://sia.planning.unc.edu/project/energy-policy/</guid>
       <description>The interactions between land use, transportation, environment and energy systems</description>
     </item>
     
     <item>
       <title>Planning for Seven Generations: Energy Planning of American Indian Tribes</title>
-      <link>/publication/brookshire-2013-bs/</link>
+      <link>https://sia.planning.unc.edu/publication/brookshire-2013-bs/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0530</pubDate>
       
-      <guid>/publication/brookshire-2013-bs/</guid>
+      <guid>https://sia.planning.unc.edu/publication/brookshire-2013-bs/</guid>
       <description></description>
     </item>
     

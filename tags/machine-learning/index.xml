@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>machine learning on Nikhil Kaza</title>
-    <link>/tags/machine-learning/</link>
+    <link>https://sia.planning.unc.edu/tags/machine-learning/</link>
     <description>Recent content in machine learning on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Tue, 07 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sia.planning.unc.edu/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Machine Learning for Remote Sensing</title>
-      <link>/post/2018-08-07-machine-learning-for-remote-sensing/machine-learning-for-remote-sensing/</link>
+      <link>https://sia.planning.unc.edu/post/2018-08-07-machine-learning-for-remote-sensing/machine-learning-for-remote-sensing/</link>
       <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/2018-08-07-machine-learning-for-remote-sensing/machine-learning-for-remote-sensing/</guid>
+      <guid>https://sia.planning.unc.edu/post/2018-08-07-machine-learning-for-remote-sensing/machine-learning-for-remote-sensing/</guid>
       <description>Classification trees, random forests, neural networks and the like.</description>
     </item>
     
     <item>
       <title>Identifying Clusters of Events</title>
-      <link>/post/2018-07-09-point-pattern-analysis-and-cluster-detection/cluster-detection-in-point-data/</link>
+      <link>https://sia.planning.unc.edu/post/2018-07-09-point-pattern-analysis-and-cluster-detection/cluster-detection-in-point-data/</link>
       <pubDate>Mon, 09 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/2018-07-09-point-pattern-analysis-and-cluster-detection/cluster-detection-in-point-data/</guid>
+      <guid>https://sia.planning.unc.edu/post/2018-07-09-point-pattern-analysis-and-cluster-detection/cluster-detection-in-point-data/</guid>
       <description>Spatial cluster detection.</description>
     </item>
     
     <item>
       <title>Irregular/Informal Settlement Detection</title>
-      <link>/project/irregular-settlements/</link>
+      <link>https://sia.planning.unc.edu/project/irregular-settlements/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>/project/irregular-settlements/</guid>
+      <guid>https://sia.planning.unc.edu/project/irregular-settlements/</guid>
       <description>Machine learning techniques to identify irregular settlements</description>
     </item>
     
     <item>
       <title>Smart Water Management and Internet of Things</title>
-      <link>/project/smartwater-iot/</link>
+      <link>https://sia.planning.unc.edu/project/smartwater-iot/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>/project/smartwater-iot/</guid>
+      <guid>https://sia.planning.unc.edu/project/smartwater-iot/</guid>
       <description>Managing urban water infrastructure with new data driven approaches and institutional change</description>
     </item>
     

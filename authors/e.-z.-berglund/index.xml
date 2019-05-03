@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>E. Z. Berglund on Nikhil Kaza</title>
-    <link>https://sia.planning.unc.edu/authors/e.-z.-berglund/</link>
+    <link>/authors/e.-z.-berglund/</link>
     <description>Recent content in E. Z. Berglund on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     
-	<atom:link href="https://sia.planning.unc.edu/authors/e.-z.-berglund/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/authors/e.-z.-berglund/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Smart Meters Data for Modeling and Forecasting Water Demand at the User-level</title>
-      <link>https://sia.planning.unc.edu/publication/pesantez-berglund-kaza/</link>
+      <link>/publication/pesantez-berglund-kaza/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/pesantez-berglund-kaza/</guid>
+      <guid>/publication/pesantez-berglund-kaza/</guid>
       <description></description>
     </item>
     

@@ -2,139 +2,139 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Nikhil Kaza</title>
-    <link>https://sia.planning.unc.edu/categories/r/</link>
+    <link>/categories/r/</link>
     <description>Recent content in R on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Tue, 02 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://sia.planning.unc.edu/categories/r/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Transportation Energy Consumption in the US</title>
-      <link>https://sia.planning.unc.edu/post/2019-04-02-transportation-energy-consumption-in-the-us/transportation-energy-consumption/</link>
+      <link>/post/2019-04-02-transportation-energy-consumption-in-the-us/transportation-energy-consumption/</link>
       <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/post/2019-04-02-transportation-energy-consumption-in-the-us/transportation-energy-consumption/</guid>
+      <guid>/post/2019-04-02-transportation-energy-consumption-in-the-us/transportation-energy-consumption/</guid>
       <description>While urban counties consume substantially more gasoline/diesel, rural counties are thrice as profligate as urban counties on per capita basis.</description>
     </item>
     
     <item>
       <title>Regions of Deprivation</title>
-      <link>https://sia.planning.unc.edu/post/2018-09-24-using-network-ananlysis-to-identify-clusters-of-deprivation/using-network-ananlysis-to-identify-clusters-of-deprivation/</link>
+      <link>/post/2018-09-24-using-network-ananlysis-to-identify-clusters-of-deprivation/using-network-ananlysis-to-identify-clusters-of-deprivation/</link>
       <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/post/2018-09-24-using-network-ananlysis-to-identify-clusters-of-deprivation/using-network-ananlysis-to-identify-clusters-of-deprivation/</guid>
+      <guid>/post/2018-09-24-using-network-ananlysis-to-identify-clusters-of-deprivation/using-network-ananlysis-to-identify-clusters-of-deprivation/</guid>
       <description>Spatial clusters of deprivation and their patterns</description>
     </item>
     
     <item>
       <title>Using Google API for Planning</title>
-      <link>https://sia.planning.unc.edu/post/2018-09-21-using-google-api-for-planning/using-google-api-for-planning/</link>
+      <link>/post/2018-09-21-using-google-api-for-planning/using-google-api-for-planning/</link>
       <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/post/2018-09-21-using-google-api-for-planning/using-google-api-for-planning/</guid>
+      <guid>/post/2018-09-21-using-google-api-for-planning/using-google-api-for-planning/</guid>
       <description>Finding density of places, service deserts using Google and OSRM.</description>
     </item>
     
     <item>
       <title>Analysing Urban Neworks</title>
-      <link>https://sia.planning.unc.edu/post/2018-09-12-analysing-urban-neworks/analysing-urban-neworks/</link>
+      <link>/post/2018-09-12-analysing-urban-neworks/analysing-urban-neworks/</link>
       <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/post/2018-09-12-analysing-urban-neworks/analysing-urban-neworks/</guid>
+      <guid>/post/2018-09-12-analysing-urban-neworks/analysing-urban-neworks/</guid>
       <description>A brief introduction to network analysis.</description>
     </item>
     
     <item>
       <title>Machine Learning for Remote Sensing</title>
-      <link>https://sia.planning.unc.edu/post/2018-08-07-machine-learning-for-remote-sensing/machine-learning-for-remote-sensing/</link>
+      <link>/post/2018-08-07-machine-learning-for-remote-sensing/machine-learning-for-remote-sensing/</link>
       <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/post/2018-08-07-machine-learning-for-remote-sensing/machine-learning-for-remote-sensing/</guid>
+      <guid>/post/2018-08-07-machine-learning-for-remote-sensing/machine-learning-for-remote-sensing/</guid>
       <description>Classification trees, random forests, neural networks and the like.</description>
     </item>
     
     <item>
       <title>Scraping web for data</title>
-      <link>https://sia.planning.unc.edu/post/2018-08-03-scraping-web-for-data/scraping-web-for-data/</link>
+      <link>/post/2018-08-03-scraping-web-for-data/scraping-web-for-data/</link>
       <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/post/2018-08-03-scraping-web-for-data/scraping-web-for-data/</guid>
+      <guid>/post/2018-08-03-scraping-web-for-data/scraping-web-for-data/</guid>
       <description>Parsing data that is served through REST API.</description>
     </item>
     
     <item>
       <title>Geospatial Data in R</title>
-      <link>https://sia.planning.unc.edu/post/2018-07-29-geospatial-data-in-r/geospatial-data-in-r/</link>
+      <link>/post/2018-07-29-geospatial-data-in-r/geospatial-data-in-r/</link>
       <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/post/2018-07-29-geospatial-data-in-r/geospatial-data-in-r/</guid>
+      <guid>/post/2018-07-29-geospatial-data-in-r/geospatial-data-in-r/</guid>
       <description>Geospatial data in R, using Citi Bike Share in New York city as a case.</description>
     </item>
     
     <item>
       <title>Introduction to R &amp; Exploratory Data Visualisation</title>
-      <link>https://sia.planning.unc.edu/post/2018-07-26-introduction-to-r-exploratory-data-visualisation/introduction-to-r-exploratory-data-visualisation/</link>
+      <link>/post/2018-07-26-introduction-to-r-exploratory-data-visualisation/introduction-to-r-exploratory-data-visualisation/</link>
       <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/post/2018-07-26-introduction-to-r-exploratory-data-visualisation/introduction-to-r-exploratory-data-visualisation/</guid>
+      <guid>/post/2018-07-26-introduction-to-r-exploratory-data-visualisation/introduction-to-r-exploratory-data-visualisation/</guid>
       <description>Introduction to R and some exploratory graphics using air pollution data in the US.</description>
     </item>
     
     <item>
       <title>Techniques &amp; Politics of New Urban Analytics</title>
-      <link>https://sia.planning.unc.edu/teaching/techniques-politics-short-course/</link>
+      <link>/teaching/techniques-politics-short-course/</link>
       <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/teaching/techniques-politics-short-course/</guid>
+      <guid>/teaching/techniques-politics-short-course/</guid>
       <description>A short course on urban analytics in R. And a critical look at urban analytics.</description>
     </item>
     
     <item>
       <title>Identifying Clusters of Events</title>
-      <link>https://sia.planning.unc.edu/post/2018-07-09-point-pattern-analysis-and-cluster-detection/cluster-detection-in-point-data/</link>
+      <link>/post/2018-07-09-point-pattern-analysis-and-cluster-detection/cluster-detection-in-point-data/</link>
       <pubDate>Mon, 09 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/post/2018-07-09-point-pattern-analysis-and-cluster-detection/cluster-detection-in-point-data/</guid>
+      <guid>/post/2018-07-09-point-pattern-analysis-and-cluster-detection/cluster-detection-in-point-data/</guid>
       <description>Spatial cluster detection.</description>
     </item>
     
     <item>
       <title>Spatial Regression Discontinuity Design Setup</title>
-      <link>https://sia.planning.unc.edu/post/2018-07-08-spatial-regression-discontinuity-design-setup/spatial-regression-discontinuity-design-setup/</link>
+      <link>/post/2018-07-08-spatial-regression-discontinuity-design-setup/spatial-regression-discontinuity-design-setup/</link>
       <pubDate>Sun, 08 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/post/2018-07-08-spatial-regression-discontinuity-design-setup/spatial-regression-discontinuity-design-setup/</guid>
+      <guid>/post/2018-07-08-spatial-regression-discontinuity-design-setup/spatial-regression-discontinuity-design-setup/</guid>
       <description>Exploiting sharp edges at the border of a jurisdiction to test the effect of a program/policy.</description>
     </item>
     
     <item>
       <title>Identifying Employment Centers</title>
-      <link>https://sia.planning.unc.edu/post/2018-07-04-identifying-employment-centers/identifying-employment-centers/</link>
+      <link>/post/2018-07-04-identifying-employment-centers/identifying-employment-centers/</link>
       <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/post/2018-07-04-identifying-employment-centers/identifying-employment-centers/</guid>
+      <guid>/post/2018-07-04-identifying-employment-centers/identifying-employment-centers/</guid>
       <description>McMillen method of identifying outliers in local neighborhood.</description>
     </item>
     
     <item>
       <title>Urban Morphology &amp; Landscape Metrics</title>
-      <link>https://sia.planning.unc.edu/post/2018-07-01-urban-morphology-landscape-metrics/urban-morphology-landscape-metrics/</link>
+      <link>/post/2018-07-01-urban-morphology-landscape-metrics/urban-morphology-landscape-metrics/</link>
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/post/2018-07-01-urban-morphology-landscape-metrics/urban-morphology-landscape-metrics/</guid>
+      <guid>/post/2018-07-01-urban-morphology-landscape-metrics/urban-morphology-landscape-metrics/</guid>
       <description>Creating urban landscape metrics</description>
     </item>
     
     <item>
       <title>Using Blogdown and Github</title>
-      <link>https://sia.planning.unc.edu/post/2018-06-30-using-blogdown-and-github/using-blogdown/</link>
+      <link>/post/2018-06-30-using-blogdown-and-github/using-blogdown/</link>
       <pubDate>Sat, 30 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/post/2018-06-30-using-blogdown-and-github/using-blogdown/</guid>
+      <guid>/post/2018-06-30-using-blogdown-and-github/using-blogdown/</guid>
       <description>Quick guide to blogdown</description>
     </item>
     

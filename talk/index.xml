@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks on Nikhil Kaza</title>
-    <link>https://sia.planning.unc.edu/talk/</link>
+    <link>/talk/</link>
     <description>Recent content in Recent &amp; Upcoming Talks on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Fri, 12 Apr 2019 12:00:00 +0530</lastBuildDate>
     
-	<atom:link href="https://sia.planning.unc.edu/talk/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Urban Form and Transportation Energy Consumption</title>
-      <link>https://sia.planning.unc.edu/talk/transport-energy/</link>
+      <link>/talk/transport-energy/</link>
       <pubDate>Fri, 12 Apr 2019 12:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/talk/transport-energy/</guid>
+      <guid>/talk/transport-energy/</guid>
       <description>Transportation energy consumption in the United States and its relation to urban form</description>
     </item>
     

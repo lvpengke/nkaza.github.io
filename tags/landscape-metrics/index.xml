@@ -2,40 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>landscape-metrics on Nikhil Kaza</title>
-    <link>https://sia.planning.unc.edu/tags/landscape-metrics/</link>
+    <link>/tags/landscape-metrics/</link>
     <description>Recent content in landscape-metrics on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
-    <lastBuildDate>Wed, 24 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://sia.planning.unc.edu/tags/landscape-metrics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/landscape-metrics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Landscape Shape Adjusted Compactness Index</title>
+      <link>/post/2019-05-02-landscape-shape-corrected-compactness-index/landscape-shape-adjusted-compactness-index/</link>
+      <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-05-02-landscape-shape-corrected-compactness-index/landscape-shape-adjusted-compactness-index/</guid>
+      <description>A correction to Moment of Inertia Index that reduces the penalty of being in non-square</description>
+    </item>
+    
+    <item>
       <title>A compactness index for urban patterns</title>
-      <link>https://sia.planning.unc.edu/post/2019-04-24-a-new-compactness-index-for-urban-patterns/a-new-compactness-index-for-urban-patterns/</link>
+      <link>/post/2019-04-24-a-new-compactness-index-for-urban-patterns/a-new-compactness-index-for-urban-patterns/</link>
       <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/post/2019-04-24-a-new-compactness-index-for-urban-patterns/a-new-compactness-index-for-urban-patterns/</guid>
+      <guid>/post/2019-04-24-a-new-compactness-index-for-urban-patterns/a-new-compactness-index-for-urban-patterns/</guid>
       <description>Index of Moment of Inertia can be used to measure both the fragmentation levels and extent of fragmentation. This is a complementary measure to density to measure compactness of an urban landscape</description>
     </item>
     
     <item>
       <title>Urban Change and its Impacts</title>
-      <link>https://sia.planning.unc.edu/project/urban-change/</link>
+      <link>/project/urban-change/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/project/urban-change/</guid>
+      <guid>/project/urban-change/</guid>
       <description>Novel measures of urban demographic, economic and morphological indicators</description>
     </item>
     
     <item>
       <title>The changing urban landscape of continental United States</title>
-      <link>https://sia.planning.unc.edu/publication/kaza-changing-2013/</link>
+      <link>/publication/kaza-changing-2013/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/kaza-changing-2013/</guid>
+      <guid>/publication/kaza-changing-2013/</guid>
       <description></description>
     </item>
     

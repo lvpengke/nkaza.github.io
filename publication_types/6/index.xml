@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>6 on Nikhil Kaza</title>
-    <link>https://sia.planning.unc.edu/publication_types/6/</link>
+    <link>/publication_types/6/</link>
     <description>Recent content in 6 on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Sat, 01 Jan 2011 00:00:00 +0530</lastBuildDate>
     
-	<atom:link href="https://sia.planning.unc.edu/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Principles of Planning for Economists</title>
-      <link>https://sia.planning.unc.edu/publication/kaza-knaap-2011/</link>
+      <link>/publication/kaza-knaap-2011/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/kaza-knaap-2011/</guid>
+      <guid>/publication/kaza-knaap-2011/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ontology for Land Development Decisions and Plans</title>
-      <link>https://sia.planning.unc.edu/publication/kaza-ontology-2007/</link>
+      <link>/publication/kaza-ontology-2007/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/kaza-ontology-2007/</guid>
+      <guid>/publication/kaza-ontology-2007/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Data Model to Incorporate Plans and Regulations in Urban Simulation Models</title>
-      <link>https://sia.planning.unc.edu/publication/hopkins-data-2005/</link>
+      <link>/publication/hopkins-data-2005/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/hopkins-data-2005/</guid>
+      <guid>/publication/hopkins-data-2005/</guid>
       <description></description>
     </item>
     

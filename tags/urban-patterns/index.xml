@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>urban-patterns on Nikhil Kaza</title>
-    <link>https://sia.planning.unc.edu/tags/urban-patterns/</link>
+    <link>/tags/urban-patterns/</link>
     <description>Recent content in urban-patterns on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Wed, 24 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://sia.planning.unc.edu/tags/urban-patterns/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/urban-patterns/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>A compactness index for urban patterns</title>
-      <link>https://sia.planning.unc.edu/post/2019-04-24-a-new-compactness-index-for-urban-patterns/a-new-compactness-index-for-urban-patterns/</link>
+      <link>/post/2019-04-24-a-new-compactness-index-for-urban-patterns/a-new-compactness-index-for-urban-patterns/</link>
       <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/post/2019-04-24-a-new-compactness-index-for-urban-patterns/a-new-compactness-index-for-urban-patterns/</guid>
+      <guid>/post/2019-04-24-a-new-compactness-index-for-urban-patterns/a-new-compactness-index-for-urban-patterns/</guid>
       <description>Index of Moment of Inertia can be used to measure both the fragmentation levels and extent of fragmentation. This is a complementary measure to density to measure compactness of an urban landscape</description>
     </item>
     
     <item>
       <title>Urban Development, Coastal Infrastructure and Policy </title>
-      <link>https://sia.planning.unc.edu/project/coastal-policy/</link>
+      <link>/project/coastal-policy/</link>
       <pubDate>Thu, 26 Jul 2018 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/project/coastal-policy/</guid>
+      <guid>/project/coastal-policy/</guid>
       <description>How does infrastructure or lack of affect urban development along the coast</description>
     </item>
     
     <item>
       <title>The changing urban landscape of continental United States</title>
-      <link>https://sia.planning.unc.edu/publication/kaza-changing-2013/</link>
+      <link>/publication/kaza-changing-2013/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/kaza-changing-2013/</guid>
+      <guid>/publication/kaza-changing-2013/</guid>
       <description></description>
     </item>
     

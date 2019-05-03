@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>transportation on Nikhil Kaza</title>
-    <link>https://sia.planning.unc.edu/tags/transportation/</link>
+    <link>/tags/transportation/</link>
     <description>Recent content in transportation on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Fri, 12 Apr 2019 12:00:00 +0530</lastBuildDate>
     
-	<atom:link href="https://sia.planning.unc.edu/tags/transportation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/transportation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Urban Form and Transportation Energy Consumption</title>
-      <link>https://sia.planning.unc.edu/talk/transport-energy/</link>
+      <link>/talk/transport-energy/</link>
       <pubDate>Fri, 12 Apr 2019 12:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/talk/transport-energy/</guid>
+      <guid>/talk/transport-energy/</guid>
       <description>Transportation energy consumption in the United States and its relation to urban form</description>
     </item>
     
     <item>
       <title>Location Efficiency &amp; Mortgage Risks for Low-Income Households</title>
-      <link>https://sia.planning.unc.edu/publication/kaza-hpd-2016/</link>
+      <link>/publication/kaza-hpd-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/kaza-hpd-2016/</guid>
+      <guid>/publication/kaza-hpd-2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Time Dependent Accessibility</title>
-      <link>https://sia.planning.unc.edu/publication/kaza-tda/</link>
+      <link>/publication/kaza-tda/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/kaza-tda/</guid>
+      <guid>/publication/kaza-tda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Robust Plans and Contingent Plans: Scenario Planning for an Uncertain World</title>
-      <link>https://sia.planning.unc.edu/publication/chakraborty-2011-lr/</link>
+      <link>/publication/chakraborty-2011-lr/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/chakraborty-2011-lr/</guid>
+      <guid>/publication/chakraborty-2011-lr/</guid>
       <description></description>
     </item>
     

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>B Thapa on Nikhil Kaza</title>
-    <link>https://sia.planning.unc.edu/authors/b-thapa/</link>
+    <link>/authors/b-thapa/</link>
     <description>Recent content in B Thapa on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Thu, 01 Jan 2009 00:00:00 +0530</lastBuildDate>
     
-	<atom:link href="https://sia.planning.unc.edu/authors/b-thapa/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/authors/b-thapa/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>An Economic model of Land Conversion Incorporating Multiple Land uses</title>
-      <link>https://sia.planning.unc.edu/publication/kaza-xw/</link>
+      <link>/publication/kaza-xw/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/kaza-xw/</guid>
+      <guid>/publication/kaza-xw/</guid>
       <description></description>
     </item>
     

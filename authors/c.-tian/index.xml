@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C. Tian on Nikhil Kaza</title>
-    <link>https://sia.planning.unc.edu/authors/c.-tian/</link>
+    <link>/authors/c.-tian/</link>
     <description>Recent content in C. Tian on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0530</lastBuildDate>
     
-	<atom:link href="https://sia.planning.unc.edu/authors/c.-tian/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/authors/c.-tian/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Location Efficiency &amp; Mortgage Risks for Low-Income Households</title>
-      <link>https://sia.planning.unc.edu/publication/kaza-hpd-2016/</link>
+      <link>/publication/kaza-hpd-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/kaza-hpd-2016/</guid>
+      <guid>/publication/kaza-hpd-2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Home Energy Efficiency and Mortgage Risks</title>
-      <link>https://sia.planning.unc.edu/publication/kaza-2013-tg/</link>
+      <link>/publication/kaza-2013-tg/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/kaza-2013-tg/</guid>
+      <guid>/publication/kaza-2013-tg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Home Energy Efficiency and Mortgage Risks</title>
-      <link>https://sia.planning.unc.edu/publication/kaza-fe/</link>
+      <link>/publication/kaza-fe/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/kaza-fe/</guid>
+      <guid>/publication/kaza-fe/</guid>
       <description></description>
     </item>
     

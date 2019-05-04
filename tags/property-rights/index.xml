@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>property rights on Nikhil Kaza</title>
-    <link>https://sia.planning.unc.edu/tags/property-rights/</link>
+    <link>/tags/property-rights/</link>
     <description>Recent content in property rights on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0530</lastBuildDate>
     
-	<atom:link href="https://sia.planning.unc.edu/tags/property-rights/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/property-rights/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Justifications for Planning</title>
-      <link>https://sia.planning.unc.edu/project/planning-theory/</link>
+      <link>/project/planning-theory/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/project/planning-theory/</guid>
+      <guid>/project/planning-theory/</guid>
       <description>Why do public and private organisations plan? When? How are the plans used?</description>
     </item>
     
     <item>
       <title>Persons, Polities and Planning</title>
-      <link>https://sia.planning.unc.edu/publication/kaza-2013-fk/</link>
+      <link>/publication/kaza-2013-fk/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/kaza-2013-fk/</guid>
+      <guid>/publication/kaza-2013-fk/</guid>
       <description></description>
     </item>
     

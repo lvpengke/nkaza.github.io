@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>regional-science on Nikhil Kaza</title>
-    <link>https://sia.planning.unc.edu/tags/regional-science/</link>
+    <link>/tags/regional-science/</link>
     <description>Recent content in regional-science on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Tue, 02 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://sia.planning.unc.edu/tags/regional-science/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/regional-science/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Transportation Energy Consumption in the US</title>
-      <link>https://sia.planning.unc.edu/post/2019-04-02-transportation-energy-consumption-in-the-us/transportation-energy-consumption/</link>
+      <link>/post/2019-04-02-transportation-energy-consumption-in-the-us/transportation-energy-consumption/</link>
       <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/post/2019-04-02-transportation-energy-consumption-in-the-us/transportation-energy-consumption/</guid>
+      <guid>/post/2019-04-02-transportation-energy-consumption-in-the-us/transportation-energy-consumption/</guid>
       <description>While urban counties consume substantially more gasoline/diesel, rural counties are thrice as profligate as urban counties on per capita basis.</description>
     </item>
     
     <item>
       <title>Regions of Deprivation</title>
-      <link>https://sia.planning.unc.edu/post/2018-09-24-using-network-ananlysis-to-identify-clusters-of-deprivation/using-network-ananlysis-to-identify-clusters-of-deprivation/</link>
+      <link>/post/2018-09-24-using-network-ananlysis-to-identify-clusters-of-deprivation/using-network-ananlysis-to-identify-clusters-of-deprivation/</link>
       <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/post/2018-09-24-using-network-ananlysis-to-identify-clusters-of-deprivation/using-network-ananlysis-to-identify-clusters-of-deprivation/</guid>
+      <guid>/post/2018-09-24-using-network-ananlysis-to-identify-clusters-of-deprivation/using-network-ananlysis-to-identify-clusters-of-deprivation/</guid>
       <description>Spatial clusters of deprivation and their patterns</description>
     </item>
     
     <item>
       <title>Analysing Urban Neworks</title>
-      <link>https://sia.planning.unc.edu/post/2018-09-12-analysing-urban-neworks/analysing-urban-neworks/</link>
+      <link>/post/2018-09-12-analysing-urban-neworks/analysing-urban-neworks/</link>
       <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/post/2018-09-12-analysing-urban-neworks/analysing-urban-neworks/</guid>
+      <guid>/post/2018-09-12-analysing-urban-neworks/analysing-urban-neworks/</guid>
       <description>A brief introduction to network analysis.</description>
     </item>
     
     <item>
       <title>Spatial Regression Discontinuity Design Setup</title>
-      <link>https://sia.planning.unc.edu/post/2018-07-08-spatial-regression-discontinuity-design-setup/spatial-regression-discontinuity-design-setup/</link>
+      <link>/post/2018-07-08-spatial-regression-discontinuity-design-setup/spatial-regression-discontinuity-design-setup/</link>
       <pubDate>Sun, 08 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/post/2018-07-08-spatial-regression-discontinuity-design-setup/spatial-regression-discontinuity-design-setup/</guid>
+      <guid>/post/2018-07-08-spatial-regression-discontinuity-design-setup/spatial-regression-discontinuity-design-setup/</guid>
       <description>Exploiting sharp edges at the border of a jurisdiction to test the effect of a program/policy.</description>
     </item>
     
     <item>
       <title>Identifying Employment Centers</title>
-      <link>https://sia.planning.unc.edu/post/2018-07-04-identifying-employment-centers/identifying-employment-centers/</link>
+      <link>/post/2018-07-04-identifying-employment-centers/identifying-employment-centers/</link>
       <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/post/2018-07-04-identifying-employment-centers/identifying-employment-centers/</guid>
+      <guid>/post/2018-07-04-identifying-employment-centers/identifying-employment-centers/</guid>
       <description>McMillen method of identifying outliers in local neighborhood.</description>
     </item>
     

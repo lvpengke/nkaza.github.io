@@ -2,634 +2,634 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Nikhil Kaza</title>
-    <link>https://sia.planning.unc.edu/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     <lastBuildDate>Thu, 02 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://sia.planning.unc.edu/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>landscape-metrics</title>
-      <link>https://sia.planning.unc.edu/tags/landscape-metrics/</link>
+      <link>/tags/landscape-metrics/</link>
       <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/landscape-metrics/</guid>
+      <guid>/tags/landscape-metrics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>urban patterns</title>
+      <link>/tags/urban-patterns/</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/urban-patterns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>urban-change</title>
-      <link>https://sia.planning.unc.edu/tags/urban-change/</link>
+      <link>/tags/urban-change/</link>
       <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/urban-change/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>urban-patterns</title>
-      <link>https://sia.planning.unc.edu/tags/urban-patterns/</link>
-      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://sia.planning.unc.edu/tags/urban-patterns/</guid>
+      <guid>/tags/urban-change/</guid>
       <description></description>
     </item>
     
     <item>
       <title>energy-policy</title>
-      <link>https://sia.planning.unc.edu/tags/energy-policy/</link>
+      <link>/tags/energy-policy/</link>
       <pubDate>Fri, 12 Apr 2019 12:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/energy-policy/</guid>
+      <guid>/tags/energy-policy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>transportation</title>
-      <link>https://sia.planning.unc.edu/tags/transportation/</link>
+      <link>/tags/transportation/</link>
       <pubDate>Fri, 12 Apr 2019 12:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/transportation/</guid>
+      <guid>/tags/transportation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>urban-form</title>
-      <link>https://sia.planning.unc.edu/tags/urban-form/</link>
+      <link>/tags/urban-form/</link>
       <pubDate>Fri, 12 Apr 2019 12:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/urban-form/</guid>
+      <guid>/tags/urban-form/</guid>
       <description></description>
     </item>
     
     <item>
       <title>regional-science</title>
-      <link>https://sia.planning.unc.edu/tags/regional-science/</link>
+      <link>/tags/regional-science/</link>
       <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/regional-science/</guid>
+      <guid>/tags/regional-science/</guid>
       <description></description>
     </item>
     
     <item>
       <title>new-urban-analytics</title>
-      <link>https://sia.planning.unc.edu/tags/new-urban-analytics/</link>
+      <link>/tags/new-urban-analytics/</link>
       <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/new-urban-analytics/</guid>
+      <guid>/tags/new-urban-analytics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>techniques-short-course</title>
-      <link>https://sia.planning.unc.edu/tags/techniques-short-course/</link>
+      <link>/tags/techniques-short-course/</link>
       <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/techniques-short-course/</guid>
+      <guid>/tags/techniques-short-course/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web 2.0</title>
-      <link>https://sia.planning.unc.edu/tags/web-2.0/</link>
+      <link>/tags/web-2.0/</link>
       <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/web-2.0/</guid>
+      <guid>/tags/web-2.0/</guid>
       <description></description>
     </item>
     
     <item>
       <title>machine learning</title>
-      <link>https://sia.planning.unc.edu/tags/machine-learning/</link>
+      <link>/tags/machine-learning/</link>
       <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/machine-learning/</guid>
+      <guid>/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>teaching</title>
-      <link>https://sia.planning.unc.edu/tags/teaching/</link>
+      <link>/tags/teaching/</link>
       <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/teaching/</guid>
+      <guid>/tags/teaching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>urban-analytics</title>
-      <link>https://sia.planning.unc.edu/tags/urban-analytics/</link>
+      <link>/tags/urban-analytics/</link>
       <pubDate>Thu, 26 Jul 2018 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/urban-analytics/</guid>
+      <guid>/tags/urban-analytics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>spatial-statistics</title>
-      <link>https://sia.planning.unc.edu/tags/spatial-statistics/</link>
+      <link>/tags/spatial-statistics/</link>
       <pubDate>Mon, 09 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/spatial-statistics/</guid>
+      <guid>/tags/spatial-statistics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>unsupervised-classification</title>
-      <link>https://sia.planning.unc.edu/tags/unsupervised-classification/</link>
+      <link>/tags/unsupervised-classification/</link>
       <pubDate>Mon, 09 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/unsupervised-classification/</guid>
+      <guid>/tags/unsupervised-classification/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>policy-evaluation</title>
-      <link>https://sia.planning.unc.edu/tags/policy-evaluation/</link>
+      <title>Policy evaluation</title>
+      <link>/tags/policy-evaluation/</link>
       <pubDate>Sun, 08 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/policy-evaluation/</guid>
+      <guid>/tags/policy-evaluation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>urban-morphology,</title>
-      <link>https://sia.planning.unc.edu/tags/urban-morphology/</link>
+      <link>/tags/urban-morphology/</link>
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/urban-morphology/</guid>
+      <guid>/tags/urban-morphology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blogdown</title>
-      <link>https://sia.planning.unc.edu/tags/blogdown/</link>
+      <link>/tags/blogdown/</link>
       <pubDate>Sat, 30 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/blogdown/</guid>
+      <guid>/tags/blogdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Air quality</title>
-      <link>https://sia.planning.unc.edu/tags/air-quality/</link>
+      <link>/tags/air-quality/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/air-quality/</guid>
+      <guid>/tags/air-quality/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Alternative fuel vehicles</title>
-      <link>https://sia.planning.unc.edu/tags/alternative-fuel-vehicles/</link>
+      <link>/tags/alternative-fuel-vehicles/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/alternative-fuel-vehicles/</guid>
+      <guid>/tags/alternative-fuel-vehicles/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vehicle miles traveled</title>
-      <link>https://sia.planning.unc.edu/tags/vehicle-miles-traveled/</link>
+      <link>/tags/vehicle-miles-traveled/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/vehicle-miles-traveled/</guid>
+      <guid>/tags/vehicle-miles-traveled/</guid>
       <description></description>
     </item>
     
     <item>
       <title>American Indian tribes</title>
-      <link>https://sia.planning.unc.edu/tags/american-indian-tribes/</link>
+      <link>/tags/american-indian-tribes/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/american-indian-tribes/</guid>
+      <guid>/tags/american-indian-tribes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>China</title>
-      <link>https://sia.planning.unc.edu/tags/china/</link>
+      <link>/tags/china/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/china/</guid>
+      <guid>/tags/china/</guid>
       <description></description>
     </item>
     
     <item>
       <title>economy</title>
-      <link>https://sia.planning.unc.edu/tags/economy/</link>
+      <link>/tags/economy/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/economy/</guid>
+      <guid>/tags/economy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>equity</title>
-      <link>https://sia.planning.unc.edu/tags/equity/</link>
+      <link>/tags/equity/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/equity/</guid>
+      <guid>/tags/equity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>plans</title>
-      <link>https://sia.planning.unc.edu/tags/plans/</link>
+      <link>/tags/plans/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/plans/</guid>
+      <guid>/tags/plans/</guid>
       <description></description>
     </item>
     
     <item>
       <title>property rights</title>
-      <link>https://sia.planning.unc.edu/tags/property-rights/</link>
+      <link>/tags/property-rights/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/property-rights/</guid>
+      <guid>/tags/property-rights/</guid>
       <description></description>
     </item>
     
     <item>
       <title>public-good</title>
-      <link>https://sia.planning.unc.edu/tags/public-good/</link>
+      <link>/tags/public-good/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/public-good/</guid>
+      <guid>/tags/public-good/</guid>
       <description></description>
     </item>
     
     <item>
       <title>theory</title>
-      <link>https://sia.planning.unc.edu/tags/theory/</link>
+      <link>/tags/theory/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/theory/</guid>
+      <guid>/tags/theory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>water</title>
-      <link>https://sia.planning.unc.edu/tags/water/</link>
+      <link>/tags/water/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/water/</guid>
+      <guid>/tags/water/</guid>
       <description></description>
     </item>
     
     <item>
       <title>accessibility</title>
-      <link>https://sia.planning.unc.edu/tags/accessibility/</link>
+      <link>/tags/accessibility/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/accessibility/</guid>
+      <guid>/tags/accessibility/</guid>
       <description></description>
     </item>
     
     <item>
       <title>environment</title>
-      <link>https://sia.planning.unc.edu/tags/environment/</link>
+      <link>/tags/environment/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/environment/</guid>
+      <guid>/tags/environment/</guid>
       <description></description>
     </item>
     
     <item>
       <title>landuse</title>
-      <link>https://sia.planning.unc.edu/tags/landuse/</link>
+      <link>/tags/landuse/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/landuse/</guid>
+      <guid>/tags/landuse/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Commons</title>
-      <link>https://sia.planning.unc.edu/tags/commons/</link>
+      <link>/tags/commons/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/commons/</guid>
+      <guid>/tags/commons/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Communitarianism</title>
-      <link>https://sia.planning.unc.edu/tags/communitarianism/</link>
+      <link>/tags/communitarianism/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/communitarianism/</guid>
+      <guid>/tags/communitarianism/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cosmopolitanism</title>
-      <link>https://sia.planning.unc.edu/tags/cosmopolitanism/</link>
+      <link>/tags/cosmopolitanism/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/cosmopolitanism/</guid>
+      <guid>/tags/cosmopolitanism/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Justifications for Planning</title>
-      <link>https://sia.planning.unc.edu/tags/justifications-for-planning/</link>
+      <link>/tags/justifications-for-planning/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/justifications-for-planning/</guid>
+      <guid>/tags/justifications-for-planning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>housing</title>
-      <link>https://sia.planning.unc.edu/tags/housing/</link>
+      <link>/tags/housing/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/housing/</guid>
+      <guid>/tags/housing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mortgages</title>
-      <link>https://sia.planning.unc.edu/tags/mortgages/</link>
+      <link>/tags/mortgages/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/mortgages/</guid>
+      <guid>/tags/mortgages/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Clustering</title>
-      <link>https://sia.planning.unc.edu/tags/clustering/</link>
+      <link>/tags/clustering/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/clustering/</guid>
+      <guid>/tags/clustering/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Economic Development</title>
-      <link>https://sia.planning.unc.edu/tags/economic-development/</link>
+      <link>/tags/economic-development/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/economic-development/</guid>
+      <guid>/tags/economic-development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Green buildings</title>
-      <link>https://sia.planning.unc.edu/tags/green-buildings/</link>
+      <link>/tags/green-buildings/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/green-buildings/</guid>
+      <guid>/tags/green-buildings/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Land values</title>
-      <link>https://sia.planning.unc.edu/tags/land-values/</link>
+      <link>/tags/land-values/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/land-values/</guid>
+      <guid>/tags/land-values/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Matching</title>
-      <link>https://sia.planning.unc.edu/tags/matching/</link>
+      <link>/tags/matching/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/matching/</guid>
+      <guid>/tags/matching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Restoration</title>
-      <link>https://sia.planning.unc.edu/tags/restoration/</link>
+      <link>/tags/restoration/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/restoration/</guid>
+      <guid>/tags/restoration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>drivers of urbanisation</title>
-      <link>https://sia.planning.unc.edu/tags/drivers-of-urbanisation/</link>
+      <link>/tags/drivers-of-urbanisation/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/drivers-of-urbanisation/</guid>
+      <guid>/tags/drivers-of-urbanisation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Decision Support Systems</title>
-      <link>https://sia.planning.unc.edu/tags/decision-support-systems/</link>
+      <link>/tags/decision-support-systems/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/decision-support-systems/</guid>
+      <guid>/tags/decision-support-systems/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Interdependence</title>
-      <link>https://sia.planning.unc.edu/tags/interdependence/</link>
+      <link>/tags/interdependence/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/interdependence/</guid>
+      <guid>/tags/interdependence/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Substitutability</title>
-      <link>https://sia.planning.unc.edu/tags/substitutability/</link>
+      <link>/tags/substitutability/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/substitutability/</guid>
+      <guid>/tags/substitutability/</guid>
       <description></description>
     </item>
     
     <item>
       <title>archetypes</title>
-      <link>https://sia.planning.unc.edu/tags/archetypes/</link>
+      <link>/tags/archetypes/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/archetypes/</guid>
+      <guid>/tags/archetypes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>extensive process</title>
-      <link>https://sia.planning.unc.edu/tags/extensive-process/</link>
+      <link>/tags/extensive-process/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/extensive-process/</guid>
+      <guid>/tags/extensive-process/</guid>
       <description></description>
     </item>
     
     <item>
       <title>intensive process</title>
-      <link>https://sia.planning.unc.edu/tags/intensive-process/</link>
+      <link>/tags/intensive-process/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/intensive-process/</guid>
+      <guid>/tags/intensive-process/</guid>
       <description></description>
     </item>
     
     <item>
       <title>network space</title>
-      <link>https://sia.planning.unc.edu/tags/network-space/</link>
+      <link>/tags/network-space/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/network-space/</guid>
+      <guid>/tags/network-space/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Land Use Change</title>
-      <link>https://sia.planning.unc.edu/tags/land-use-change/</link>
+      <link>/tags/land-use-change/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/land-use-change/</guid>
+      <guid>/tags/land-use-change/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MDCEV</title>
-      <link>https://sia.planning.unc.edu/tags/mdcev/</link>
+      <link>/tags/mdcev/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/mdcev/</guid>
+      <guid>/tags/mdcev/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Urban Growth</title>
-      <link>https://sia.planning.unc.edu/tags/urban-growth/</link>
+      <link>/tags/urban-growth/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/urban-growth/</guid>
+      <guid>/tags/urban-growth/</guid>
       <description></description>
     </item>
     
     <item>
       <title>scenario-planning</title>
-      <link>https://sia.planning.unc.edu/tags/scenario-planning/</link>
+      <link>/tags/scenario-planning/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/scenario-planning/</guid>
+      <guid>/tags/scenario-planning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>information</title>
-      <link>https://sia.planning.unc.edu/tags/information/</link>
+      <link>/tags/information/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/information/</guid>
+      <guid>/tags/information/</guid>
       <description></description>
     </item>
     
     <item>
       <title>information systems</title>
-      <link>https://sia.planning.unc.edu/tags/information-systems/</link>
+      <link>/tags/information-systems/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/information-systems/</guid>
+      <guid>/tags/information-systems/</guid>
       <description></description>
     </item>
     
     <item>
       <title>planning</title>
-      <link>https://sia.planning.unc.edu/tags/planning/</link>
+      <link>/tags/planning/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/planning/</guid>
+      <guid>/tags/planning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>strategic</title>
-      <link>https://sia.planning.unc.edu/tags/strategic/</link>
+      <link>/tags/strategic/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/strategic/</guid>
+      <guid>/tags/strategic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Decisions</title>
-      <link>https://sia.planning.unc.edu/tags/decisions/</link>
+      <link>/tags/decisions/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/decisions/</guid>
+      <guid>/tags/decisions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Urban Ontology</title>
-      <link>https://sia.planning.unc.edu/tags/urban-ontology/</link>
+      <link>/tags/urban-ontology/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/urban-ontology/</guid>
+      <guid>/tags/urban-ontology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>consensus</title>
-      <link>https://sia.planning.unc.edu/tags/consensus/</link>
+      <link>/tags/consensus/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/consensus/</guid>
+      <guid>/tags/consensus/</guid>
       <description></description>
     </item>
     
     <item>
       <title>consent</title>
-      <link>https://sia.planning.unc.edu/tags/consent/</link>
+      <link>/tags/consent/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/consent/</guid>
+      <guid>/tags/consent/</guid>
       <description></description>
     </item>
     
     <item>
       <title>participation</title>
-      <link>https://sia.planning.unc.edu/tags/participation/</link>
+      <link>/tags/participation/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/participation/</guid>
+      <guid>/tags/participation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>persuasion</title>
-      <link>https://sia.planning.unc.edu/tags/persuasion/</link>
+      <link>/tags/persuasion/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/persuasion/</guid>
+      <guid>/tags/persuasion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>political economy</title>
-      <link>https://sia.planning.unc.edu/tags/political-economy/</link>
+      <link>/tags/political-economy/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0530</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/political-economy/</guid>
+      <guid>/tags/political-economy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Implementation</title>
-      <link>https://sia.planning.unc.edu/tags/implementation/</link>
+      <link>/tags/implementation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/tags/implementation/</guid>
+      <guid>/tags/implementation/</guid>
       <description></description>
     </item>
     

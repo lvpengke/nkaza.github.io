@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>S. Bhamidi on Nikhil Kaza</title>
-    <link>https://sia.planning.unc.edu/authors/s.-bhamidi/</link>
+    <link>/authors/s.-bhamidi/</link>
     <description>Recent content in S. Bhamidi on Nikhil Kaza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;2019 Nikhil Kaza</copyright>
     
-	<atom:link href="https://sia.planning.unc.edu/authors/s.-bhamidi/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/authors/s.-bhamidi/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Demarcating Regions using Community Detection in Commuting Networks</title>
-      <link>https://sia.planning.unc.edu/publication/he-2019-aa/</link>
+      <link>/publication/he-2019-aa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://sia.planning.unc.edu/publication/he-2019-aa/</guid>
+      <guid>/publication/he-2019-aa/</guid>
       <description></description>
     </item>
     
